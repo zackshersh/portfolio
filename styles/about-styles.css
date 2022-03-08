@@ -1,0 +1,84 @@
+.About-Me {
+    background-color: var(--main);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* overflow: scroll; */
+}
+
+.About-Wrapper {
+    width: 100%;
+    max-width: 780px;
+    padding: 18px;
+    color: white;
+}
+
+.About-Wrapper > u {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.About-Wrapper > div {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.About-Col {
+    padding-right: 24px;
+    margin-bottom: 24px;
+    width: 50%;
+}
+
+.About-Col > u {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.Skill-Title {
+    display: block;
+    margin: 12px 0px 4px 8px;
+    font-size: 12px;
+}
+
+.About-Col > ul {
+    font-size: 12px;
+}
+
+.About-Col > ul > li {
+    margin-bottom: 4px;
+
+}
+
+.Contact-Col > p {
+    font-size: 12px;
+    margin-bottom: 2px;
+    margin-left: 8px;
+}
+
+.About-Exit-Button {
+    background-color: var(--main);
+    border: 1px solid var(--light);
+    color: var(--light);
+    font-size: 12px;
+    padding: 4px;
+    cursor: pointer;
+
+}
+
+.About-Exit-Button:hover {
+    background-color: var(--light);
+    color: var(--main);
+
+}
+
+@media only screen and (max-width: 600px) {
+    .About-Wrapper > div {
+        flex-direction: column;
+    }
+
+    .About-Col {
+        width: 100%;
+    }
+}

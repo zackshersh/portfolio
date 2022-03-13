@@ -15,12 +15,3 @@
 svg {
     pointer-events: none;
 }
-
-.cursor {
-    /* transition: all 0.5s;
-    transition-timing-function: linear; */
-}
-
-.Work-Page * {
-    /* cursor: none; */
-}

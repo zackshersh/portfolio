@@ -34,7 +34,7 @@ export let items = [
 
     new ContentItem("Runaway Clothing",
     
-                    ["THUMBNAIL%PUBLIC_URL%/content/runaway-neon.jpg","YOUTUBE-EMBEDhttps://www.youtube.com/embed/XZP-my9j0Rg","YOUTUBE-EMBEDhttps://www.youtube.com/embed/qDu_v-UHTKg","YOUTUBE-EMBEDhttps://www.youtube.com/embed/mBub421i4g0","%PUBLIC_URL%/content/runaway-inthefield.jpg",], 
+                    ["THUMBNAIL./content/runaway-neon.jpg","YOUTUBE-EMBEDhttps://www.youtube.com/embed/XZP-my9j0Rg","YOUTUBE-EMBEDhttps://www.youtube.com/embed/qDu_v-UHTKg","YOUTUBE-EMBEDhttps://www.youtube.com/embed/mBub421i4g0","./content/runaway-inthefield.jpg",], 
     
                     "Runaway Clothing is a popular clothing brand from my hometown of Durham, NC. From the end of my junior year to the middle of my senior year of high school I interned there, creating social media content. I made promotional materials and videos for new releases and community engagement.",
                     
@@ -46,7 +46,7 @@ export let items = [
 
     new ContentItem("YUCK!: Side A",
     
-                    ["%PUBLIC_URL%/content/sideA-1.jpg","%PUBLIC_URL%/content/sideA-4.jpg","%PUBLIC_URL%/content/sideA-3.jpg","%PUBLIC_URL%/content/sideA-2.jpg",], 
+                    ["./content/sideA-1.jpg","./content/sideA-4.jpg","./content/sideA-3.jpg","./content/sideA-2.jpg",], 
     
                     "Side A was the first clothing line released for my clothing brand YUCK!. It was my first experiment in designing clothing and in creating promotional materials through a look-book for social media.",
                     
@@ -58,7 +58,7 @@ export let items = [
 
     new ContentItem("You Should Write...",
 
-                    ["%PUBLIC_URL%/content/youshouldwrite-single.jpg","%PUBLIC_URL%/content/youshouldwrite_spread.jpg"], 
+                    ["./content/youshouldwrite-single.jpg","./content/youshouldwrite_spread.jpg"], 
 
                     "You Should Write More Things Down was a prototype product I created while working as the lead design editor of my highschool's literary magazine.",
 
@@ -71,7 +71,7 @@ export let items = [
 
     new ContentItem("YUCK!: Goose Season",
     
-                    ["%PUBLIC_URL%/content/goose-season-1.jpg","%PUBLIC_URL%/content/goose-season-2.jpg","%PUBLIC_URL%/content/goose-season-3.jpg"], 
+                    ["./content/goose-season-1.jpg","./content/goose-season-2.jpg","./content/goose-season-3.jpg"], 
 
                     "Goose Season was the second clothing line released for my clothing brand YUCK!.",
 
@@ -85,7 +85,7 @@ export let items = [
 
     new ContentItem("Humanity: Error of the Cosmos",
     
-                    ["%PUBLIC_URL%/content/humanity-errorofthecosmos.jpg"], 
+                    ["./content/humanity-errorofthecosmos.jpg"], 
 
                     null,
 
@@ -97,7 +97,7 @@ export let items = [
 
     new ContentItem("Portraits in Ink",
     
-                    ["%PUBLIC_URL%/content/pii-1.jpg","%PUBLIC_URL%/content/pii-2.jpg","%PUBLIC_URL%/content/pii-3.jpg","%PUBLIC_URL%/content/pii-4.jpg","%PUBLIC_URL%/content/pii-5.jpg","%PUBLIC_URL%/content/submitathon-poster.jpg"], 
+                    ["./content/pii-1.jpg","./content/pii-2.jpg","./content/pii-3.jpg","./content/pii-4.jpg","./content/pii-5.jpg","./content/submitathon-poster.jpg"], 
 
                     "Portraits in Ink is the student literary and art magazine of my highschool, Durham School of the Arts. In my senior year I served as the lead design editor, leading a rotating team of designers to create the ~120 page annual publication.",
 
@@ -109,7 +109,7 @@ export let items = [
                         
     new ContentItem("YUCK!: Disposable camera",
 
-                    ["%PUBLIC_URL%/content/yuckcam-1.jpg","%PUBLIC_URL%/content/yuckcam-2.jpg","%PUBLIC_URL%/content/yuckcam-3.jpg","%PUBLIC_URL%/content/yuckcam-4.jpg","%PUBLIC_URL%/content/yuckcam-5.jpg",], 
+                    ["./content/yuckcam-1.jpg","./content/yuckcam-2.jpg","./content/yuckcam-3.jpg","./content/yuckcam-4.jpg","./content/yuckcam-5.jpg",], 
 
                     "Customized disposable cameras created for my clothing brand YUCK!. These cameras were originally Fujifilm disposable cameras that I replaced the cardstock covers of with custom designed cardstock covers.",
 
@@ -122,7 +122,7 @@ export let items = [
 
     new ContentItem("Driving to Alaska - The Edelweiss Brothers",
 
-                    ["THUMBNAIL%PUBLIC_URL%/content/alaska-frame.jpg","YOUTUBE-EMBEDhttps://www.youtube.com/embed/Jq5gZO27_is","%PUBLIC_URL%/content/alaska-5.jpg","%PUBLIC_URL%/content/alaska-2.jpg","%PUBLIC_URL%/content/alaska-1.jpg","%PUBLIC_URL%/content/alaska-4.jpg","%PUBLIC_URL%/content/alaska-7.jpg","%PUBLIC_URL%/content/alaska-3.jpg","%PUBLIC_URL%/content/alaska-6.jpg",], 
+                    ["THUMBNAIL./content/alaska-frame.jpg","YOUTUBE-EMBEDhttps://www.youtube.com/embed/Jq5gZO27_is","./content/alaska-5.jpg","./content/alaska-2.jpg","./content/alaska-1.jpg","./content/alaska-4.jpg","./content/alaska-7.jpg","./content/alaska-3.jpg","./content/alaska-6.jpg",], 
 
                     "This is a music video I directed, shot and edited for a song my friends wrote in early quarantine.",
 
@@ -135,7 +135,7 @@ export let items = [
 
     new ContentItem("YUCK!: Lawn Care",
 
-                    ["%PUBLIC_URL%/content/lawncare-5.jpg","%PUBLIC_URL%/content/lawncare-2.jpg","%PUBLIC_URL%/content/lawncare-3.jpg","/content/lawncare-4.jpg","/content/lawncare-1.jpg","%PUBLIC_URL%/content/lawncare-poster.png",], 
+                    ["./content/lawncare-5.jpg","./content/lawncare-2.jpg","./content/lawncare-3.jpg","/content/lawncare-4.jpg","/content/lawncare-1.jpg","./content/lawncare-poster.png",], 
 
                     "Side A was the first clothing line released for my clothing brand YUCK!. It was my first experiment in designing clothing and in creating promotional materials through a look-book for social media.",
 
@@ -148,7 +148,7 @@ export let items = [
                     
     new ContentItem("Vector World",
 
-                    ["/content/vectortest1.png","%PUBLIC_URL%/content/vectortest3.png"], 
+                    ["/content/vectortest1.png","./content/vectortest3.png"], 
 
                     null ,
 
@@ -161,7 +161,7 @@ export let items = [
                     
     new ContentItem("Carrboro Farmers Market Posters",
 
-                    ["./content/carb-fm-1.jpg","%PUBLIC_URL%/content/carb-fm-2.jpg"], 
+                    ["./content/carb-fm-1.jpg","./content/carb-fm-2.jpg"], 
 
                     null ,
 
@@ -173,7 +173,7 @@ export let items = [
 
     new ContentItem("Little Image Filter Web App",
 
-                    ["THUMBNAIL%PUBLIC_URL%/content/jfk-pixel.png","%PUBLIC_URL%/content/filter-main.jpg","%PUBLIC_URL%/content/filter-wave.jpg","%PUBLIC_URL%/content/jfk-pixel.png","%PUBLIC_URL%/content/jfk-bit.png","%PUBLIC_URL%/content/jfk-wave.png",], 
+                    ["THUMBNAIL./content/jfk-pixel.png","./content/filter-main.jpg","./content/filter-wave.jpg","./content/jfk-pixel.png","./content/jfk-bit.png","./content/jfk-wave.png",], 
 
                     "Little Image Filter Web App is a web application that-- as the name suggests--I created to allow users to layer various filters onto images they upload to create unique effects" ,
 

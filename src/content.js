@@ -148,7 +148,7 @@ export let items = [
                     
     new ContentItem("Vector World",
 
-                    ["/content/vectortest1.png","./content/vectortest3.png"], 
+                    ["./content/vectortest1.png","./content/vectortest3.png"], 
 
                     null ,
 

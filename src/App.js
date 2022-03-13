@@ -5,7 +5,7 @@ import SvgCursor from "./Components/SvgCursor";
 function App() {
   return (
     <div className="App">
-      <SvgCursor />
+      {/* <SvgCursor /> */}
       <WorkPage />
     </div>
   );

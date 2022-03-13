@@ -79,7 +79,7 @@ const SvgCursor = () => {
 
     useEffect(() => {
         cursor.svg = document.querySelector('.cursor');
-        cursor.svg.setAttribute('fill','red')
+        // cursor.svg.setAttribute('fill','#00ff00')
         console.log('hey')
     })
 

@@ -32,7 +32,7 @@ const ContentWidget = ({item}) => {
     return (
         <div className={`Content-Widget${item.important ? " Important-Widget" : ""}`}>
             <div onMouseDown={() => setDisplayProxy(true)}>
-                <img src={evalPath(item.paths[0])} />
+                <img src={`${evalPath(item.paths[0])}`} />
                 <p>{item.title}</p>
             </div>
             <ContentPopup item={item} display={popupDisplay} setDisplay={setDisplayProxy}/>

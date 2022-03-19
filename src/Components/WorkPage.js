@@ -13,9 +13,11 @@ const WorkPage = () => {
 
     const [activeTags, setActiveTags] = useState({});
 
-    const [activeItems, setActiveItems] = useState([]);
+    // const [activeItems, setActiveItems] = useState([]);
 
     const [aboutDisplay, setAboutDisplay] = useState(false);
+    
+    const activeItems = [];
 
     const handleTagClick = (tagName) => {
         let newActiveTags = {...activeTags}
@@ -54,7 +56,7 @@ const WorkPage = () => {
     //         eligibleItems.push(item)
     //     })
 
-    //     setActiveItems(eligibleItems);
+    //     activeItems = eligibleItems;
     // })
 
 

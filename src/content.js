@@ -159,6 +159,18 @@ export let items = [
                     false),
 
                     
+    new ContentItem("Chapel Hill Film Society 2021-2022 Shirt",
+
+                    ["./content/chfs-main-design.png","./content/chfs-logo.png"], 
+
+                    "In the fall of 2021 I designed a brand identity and t-shirt for UNC's primary film club.",
+
+                    ["physical","single item","creative","2021","graphic"],
+                    
+                    "Sep. 2021",
+                    
+                    false),
+
     new ContentItem("Carrboro Farmers Market Posters",
 
                     ["./content/carb-fm-1.jpg","./content/carb-fm-2.jpg"], 

@@ -3,14 +3,14 @@
 
 
 class ContentItem {
-    constructor(title, paths, text, tags, date = null, important = false, extraOptions){
+    constructor(title, paths, text, tags, date = null, important = false, link){
         this.title = title;
         this.paths = paths;
         this.text = text;
         this.tags = tags;
         this.date = date;
         this.important = important;
-        // this.link = extraOptions.link;
+        this.link = link;
         this.init()
     }
 
@@ -42,7 +42,9 @@ export let items = [
                     
                     "April - Dec. 2018", 
                     
-                    true),
+                    true,
+
+                    "https://www.instagram.com/runaway_brand/"),
 
     new ContentItem("YUCK!: Side A",
     
@@ -54,7 +56,9 @@ export let items = [
                     
                     "Sep. 2018", 
                     
-                    true),
+                    true,
+                    
+                    "https://www.instagram.com/p/BpqlS7FHF_G/"),
 
     new ContentItem("You Should Write...",
 
@@ -81,7 +85,7 @@ export let items = [
                     
                     true,
                     
-                    {link: "https://www.instagram.com/p/BsjKQFHB661/"}),
+                    "https://www.instagram.com/p/BsjKQFHB661/"),
 
     new ContentItem("Humanity: Error of the Cosmos",
     
@@ -105,7 +109,9 @@ export let items = [
 
                     "May 2019",
                     
-                    true),
+                    true,
+                    
+                    "https://www.amazon.com/Portraits-Ink-Durham-Literary-Magazine/dp/1098588398/ref=sr_1_1?crid=170L6MQ0G0AQR&keywords=portraits+in+ink+2019&qid=1647709970&sprefix=portraits+in+ink+2019%2Caps%2C121&sr=8-1"),
                         
     new ContentItem("YUCK!: Disposable camera",
 
@@ -117,7 +123,9 @@ export let items = [
                     
                     "Sep. 2019",
                     
-                    false),
+                    false,
+                    
+                    "https://www.instagram.com/p/B2Fd0S2g0ZC/"),
 
 
     new ContentItem("Driving to Alaska - The Edelweiss Brothers",
@@ -130,7 +138,9 @@ export let items = [
 
                     "July 2020", 
 
-                    false),
+                    false,
+                    
+                    "https://youtu.be/Jq5gZO27_is"),
 
 
     new ContentItem("YUCK!: Lawn Care",
@@ -143,7 +153,9 @@ export let items = [
 
                     "July 2020", 
 
-                    true),
+                    true,
+
+                    "https://www.instagram.com/p/CCg2QgOp6iA/"),
 
                     
     new ContentItem("Vector World",
@@ -193,7 +205,9 @@ export let items = [
                     
                     "Dec. 2021",
                     
-                    true),
+                    true,
+                    
+                    "https://zackshersh.github.io/little-image-filter-thingy-app/"),
 
 
 ]

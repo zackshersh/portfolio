@@ -156,6 +156,12 @@
     margin-bottom: 4px;
 }
 
+.Linked-Title {
+    /* text-decoration: underline; */
+    cursor: pointer;
+    display: flex;
+}
+
 .Content-Wrapper > p {
     margin-bottom: 16px;
     max-width: 400px;

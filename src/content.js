@@ -171,6 +171,20 @@ export let items = [
                     false),
 
                     
+    new ContentItem("Tiny Town",
+
+                    ["./content/tiny-town-1.jpg","./content/tiny-town-2.jpg","./content/tiny-town-3.jpg","./content/tiny-town-4.jpg",], 
+
+                    "Tiny Town is a web application I created as the final project of the web development bootcamp I did in the spring and summer of 2021. Tiny Town is a website that allows users to create city blocks with multiple types of buildings, roads and parks, which connect into a larger city of other user submitted city blocks. The frontend of the application uses ReactJS and renders the 3-D elements with the ThreeJS library. User accounts and city info are stored in a MongoDB database running on an ExpressJS server. I worked on this project with two other developers, one of which who did the majority of the backend and the other who worked on asset creation while I handled most of the frontend and 3-D code.",
+
+                    ["digital","project","group project","2021","3-D","web"],
+                    
+                    "July 2021",
+                    
+                    true,
+                    
+                    "https://github.com/Gpphelps/tiny-town"),
+
     new ContentItem("Chapel Hill Film Society 2021-2022 Shirt",
 
                     ["./content/chfs-main-design.png","./content/chfs-logo.png"], 

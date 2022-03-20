@@ -44,7 +44,7 @@ export let items = [
                     
                     true,
 
-                    "https://www.instagram.com/runaway_brand/"),
+                    "https://www.runawayclothes.com/"),
 
     new ContentItem("YUCK!: Side A",
     
@@ -208,6 +208,18 @@ export let items = [
                     true,
                     
                     "https://zackshersh.github.io/little-image-filter-thingy-app/"),
+
+    new ContentItem("Ann Hobgood Photo Story",
+
+                    ["THUMBNAIL./content/hobgood-10.jpg","./content/hobgood-1.jpg","./content/hobgood-2.jpg","./content/hobgood-3.jpg","./content/hobgood-4.jpg","./content/hobgood-5.jpg","./content/hobgood-6.jpg","./content/hobgood-7.jpg","./content/hobgood-8.jpg","./content/hobgood-9.jpg","./content/hobgood-10.jpg"], 
+
+                    "An Hobgood is a Hillsborough, NC, based artist who creates figurative sculptures from reclaimed materials. I found her through my final project for a photojournalism course I was taking at UNC and over the course of several weeks I photographed had the privilege of being invited into her studio and home to witness her creative and personal lives. The photo story focuses on her difficulties continuing to create her art as she ages." ,
+
+                    ["digital","single item","web","2021","graphic"],
+                    
+                    "Dec. 2021",
+                    
+                    true),
 
 
 ]

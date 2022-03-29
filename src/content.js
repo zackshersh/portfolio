@@ -170,6 +170,20 @@ export let items = [
                     
                     false),
 
+    new ContentItem("Field of Dreams",
+
+                    ["THUMBNAIL./content/field-of-dreams-4.jpg","./content/field-of-dreams-5.jpg","./content/field-of-dreams-1.jpg","./content/field-of-dreams-2.jpg","./content/field-of-dreams-3.jpg"], 
+
+                    "Field of Dreams is a web application I created as one of the group projects of the web development bootcamp I did in the spring and summer of 2021. Field of Dreams allows users to procedurally create flowers by modifying a set of parameters such as height, bulb color, stem width and petal size to create a wide range of types of flowers. Users can save these flowers to their accounts and then plant them on a field with flowers created by other users. In creating this project with a group, I took on a leadership role in implementing the envisioned final product which greatly strayed from the types of projects other group were creating. I was the sole developer responsible for programming and optimizing the code which rendered the user created flowers in the editor and on the collective field. I built out the application’s frontend, creating UI elements and working on the novel issues relating to storing and retrieving the user created flower parameters inside of the MySQL based backend that my group mates had created. Completing this project taught me about the process of synthesizing a user friendly and functional final product from an original concept.",
+
+                    ["digital","project","group project","2021","3-D","web"],
+                    
+                    "July 2021",
+                    
+                    true,
+                    
+                    "https://fields-of-dreams.herokuapp.com"),
+
                     
     new ContentItem("Tiny Town",
 
@@ -229,7 +243,7 @@ export let items = [
 
                     "An Hobgood is a Hillsborough, NC, based artist who creates figurative sculptures from reclaimed materials. I found her through my final project for a photojournalism course I was taking at UNC and over the course of several weeks I photographed had the privilege of being invited into her studio and home to witness her creative and personal lives. The photo story focuses on her difficulties continuing to create her art as she ages." ,
 
-                    ["digital","single item","web","2021","graphic"],
+                    ["digital","project","creative","2021"],
                     
                     "Dec. 2021",
                     

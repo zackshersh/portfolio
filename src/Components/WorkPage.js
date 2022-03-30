@@ -9,6 +9,9 @@ import ContentWidget from "./ContentWidget"
 import Title from "./Title"
 import AboutMe from "./AboutMe"
 
+let col1 = [];
+let col2 = [];
+
 const WorkPage = () => {
 
     const [activeTags, setActiveTags] = useState({});
@@ -16,8 +19,6 @@ const WorkPage = () => {
     // const [activeItems, setActiveItems] = useState([]);
 
     const [aboutDisplay, setAboutDisplay] = useState(false);
-    
-    const activeItems = [];
 
     const handleTagClick = (tagName) => {
         let newActiveTags = {...activeTags}
@@ -56,7 +57,23 @@ const WorkPage = () => {
     //         eligibleItems.push(item)
     //     })
 
-    //     activeItems = eligibleItems;
+    //     col1 = [];
+    //     col2 = [];
+
+    //     eligibleItems.forEach((item,i) => {
+    //         if(!i%2){
+    //             col1.push(item)
+    //         } else {
+    //             col2.push(item)
+    //         }
+    //     })
+
+
+    //     console.log(col1)
+    //     console.log(col2)
+        
+
+    //     // activeItems = eligibleItems;
     // })
 
 

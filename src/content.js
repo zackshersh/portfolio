@@ -174,7 +174,7 @@ export let items = [
 
                     ["THUMBNAIL./content/little-ahole-2.jpg","./content/little-ahole-1.jpg"], 
 
-                    "The first group project I completed for the coding bootcamp I did in the Spring of 2021. This project was very basic only using vanilla javascript. This Little A**hole has a small animated character who paces across the screen until the user asks it a question. In answering the question it acts similar to a magic 8 ball a random encouraging or discouraging statement. The website makes use of IBM’s natural language processing AI API to parse out the subject of a question and to insert that subject into the character’s answer so each answer is unique to its question.ß",
+                    "The first group project I completed for the coding bootcamp I did in the Spring of 2021. This project was very basic only using vanilla javascript. This Little A**hole has a small animated character who paces across the screen until the user asks it a question. In answering the question it acts similar to a magic 8 ball a random encouraging or discouraging statement. The website makes use of IBM’s natural language processing AI API to parse out the subject of a question and to insert that subject into the character’s answer so each answer is unique to its question.",
 
                     ["digital","project","group project","2021","web"],
                     

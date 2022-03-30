@@ -169,6 +169,20 @@ export let items = [
                     "Sep. 2020",
                     
                     false),
+    
+    new ContentItem("This Little A**hole",
+
+                    ["THUMBNAIL./content/little-ahole-2.jpg","./content/little-ahole-1.jpg"], 
+
+                    "The first group project I completed for the coding bootcamp I did in the Spring of 2021. This project was very basic only using vanilla javascript. This Little A**hole has a small animated character who paces across the screen until the user asks it a question. In answering the question it acts similar to a magic 8 ball a random encouraging or discouraging statement. The website makes use of IBM’s natural language processing AI API to parse out the subject of a question and to insert that subject into the character’s answer so each answer is unique to its question.ß",
+
+                    ["digital","project","group project","2021","web"],
+                    
+                    "Feb. 2021",
+                    
+                    false,
+                    
+                    "https://zackshersh.github.io/frick-off/"),
 
     new ContentItem("Field of Dreams",
 
@@ -176,7 +190,7 @@ export let items = [
 
                     "Field of Dreams is a web application I created as one of the group projects of the web development bootcamp I did in the spring and summer of 2021. Field of Dreams allows users to procedurally create flowers by modifying a set of parameters such as height, bulb color, stem width and petal size to create a wide range of types of flowers. Users can save these flowers to their accounts and then plant them on a field with flowers created by other users. In creating this project with a group, I took on a leadership role in implementing the envisioned final product which greatly strayed from the types of projects other group were creating. I was the sole developer responsible for programming and optimizing the code which rendered the user created flowers in the editor and on the collective field. I built out the application’s frontend, creating UI elements and working on the novel issues relating to storing and retrieving the user created flower parameters inside of the MySQL based backend that my group mates had created. Completing this project taught me about the process of synthesizing a user friendly and functional final product from an original concept.",
 
-                    ["digital","project","group project","2021","3-D","web"],
+                    ["digital","project","group project","2021","web"],
                     
                     "July 2021",
                     
@@ -194,7 +208,7 @@ export let items = [
                     ["digital","project","group project","2021","3-D","web"],
                     
                     "July 2021",
-                    
+
                     true,
                     
                     "https://github.com/Gpphelps/tiny-town"),

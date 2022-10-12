@@ -1,0 +1,18 @@
+.Header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.Header-Wrapper {
+    width: 100%;
+    max-width: 780px;
+    padding: 18px;
+    padding-bottom: 0;
+}
+
+.Header-Wrapper > h3 {
+    text-decoration: underline;
+    color: var(--main);
+}
+

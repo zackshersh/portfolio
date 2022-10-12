@@ -1,0 +1,9 @@
+.Main-Work-Page {
+    width: 100vw;
+    height: 100vh;
+}
+
+.Main-Work-Page > .Header {
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--main);
+}

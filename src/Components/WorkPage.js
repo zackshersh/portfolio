@@ -8,6 +8,7 @@ import ContentWidget from "./ContentWidget"
 
 import Title from "./Title"
 import AboutMe from "./AboutMe"
+import Header from "./Header"
 
 let col1 = [];
 let col2 = [];
@@ -80,7 +81,7 @@ const WorkPage = () => {
 
     return (
         <div className="Work-Page">
-            <Title />
+            <Header />
             <div className="Work-Wrapper">
                 <div className="Tags-Cont">
                     <p>Tags:</p>

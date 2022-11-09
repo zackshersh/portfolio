@@ -1,0 +1,40 @@
+
+.Grid-Wrapper > hr {
+    border-top: 1px solid var(--main);
+}
+
+/* TITLE */
+.Grid-Title {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transform: translateY(-8px);
+}
+
+.Grid-Title > h1 {
+    font-family: Arial;
+    font-weight: 500;
+    color: var(--main);
+    font-size: 48px;
+    text-transform: uppercase;
+    padding: 12px;
+    width: 100%;
+    flex-grow: 1;
+}
+
+/* BASIC INFO */
+.Grid-Basic-Info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* height: 100%; */
+    color: var(--main);
+}
+
+/* BODY TEXT */
+.Grid-Body-Text {
+    display: flex;
+    align-items: flex-start;
+    color: var(--main);
+    /* height: 100% */
+}

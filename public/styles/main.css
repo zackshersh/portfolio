@@ -1,8 +1,12 @@
 
 :root {
-    --main: blue;
+    --main: rgb(0, 0, 255);
+    --secondary: black;
     --dark: black;
     --light: rgb(255, 255, 255);
+}
+
+body {
 }
 
 * {

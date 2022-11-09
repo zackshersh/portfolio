@@ -1,7 +1,9 @@
 .Header {
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     justify-content: center;
+    background-color: var(--main);
+    align-items: center;
 }
 
 .Header-Wrapper {
@@ -11,8 +13,9 @@
     padding-bottom: 0;
 }
 
-.Header-Wrapper > h3 {
+.Header-Wrapper > a {
     text-decoration: underline;
-    color: var(--main);
+    color: white;
+    font-size: 14px;
 }
 

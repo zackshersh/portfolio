@@ -138,7 +138,7 @@ export let items = [
 
                     "July 2020", 
 
-                    false,
+                    false, 
                     
                     "https://youtu.be/Jq5gZO27_is"),
 
@@ -241,7 +241,7 @@ export let items = [
 
                     ["THUMBNAIL./content/jfk-pixel.png","./content/filter-main.jpg","./content/filter-wave.jpg","./content/jfk-pixel.png","./content/jfk-bit.png","./content/jfk-wave.png",], 
 
-                    "Little Image Filter Web App is a web application that-- as the name suggests--I created to allow users to layer various filters onto images they upload to create unique effects" ,
+                    "Little Image Filter Web App is a web application that—as the name suggests—I created to allow users to layer various filters onto images they upload to create unique effects" ,
 
                     ["digital","single item","web","2021","graphic"],
                     

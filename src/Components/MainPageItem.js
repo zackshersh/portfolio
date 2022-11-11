@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { setCSSMain } from '../utils';
 
+import standard from "../standardValues.json"
+
 function MainPageItem({img, grid, title, darker, to, activeItem, setActiveItem, color}) {
 
     const [col,row] = grid ? grid.split("-") : "";
@@ -18,8 +20,16 @@ function MainPageItem({img, grid, title, darker, to, activeItem, setActiveItem, 
     }
 
     const handleClick = (e) => {
-        setActiveItem(title);
-        setCSSMain(color ? color : "black");
+        if(activeItem == "all"){
+            setActiveItem(title);
+            setCSSMain(color ? color : "black");
+        } else {
+            if(active){
+                setActiveItem("all");
+                setCSSMain(standard.main)
+
+            }
+        }
     }
 
     

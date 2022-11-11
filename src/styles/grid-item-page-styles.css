@@ -1,6 +1,44 @@
 
+.Grid-Wrapper {
+    /* overflow: hidden; */
+}
+
 .Grid-Wrapper > hr {
     border-top: 1px solid var(--main);
+}
+
+.Grid-Wrapper > img {
+    /* max-width: calc(2*(100vw/8)); */
+    /* max-height: calc(2*(100vh/8)); */
+    /* max-width: 30vw;
+    max-height: 30vh; */
+    /* min-width: 200px;
+    width: auto;
+    height: auto;
+    width: 1200px; */
+}
+
+/* IMG SIZING */
+.Img-1 {
+    max-width: calc(1*(100vw/8));
+    /* min-width: 200px; */
+    width: auto;
+    height: auto;
+    width: 1200px;
+}
+.Img-2 {
+    max-width: calc(2*(100vw/8));
+    /* min-width: 200px; */
+    width: auto;
+    height: auto;
+    width: 1200px;
+}
+.Img-3 {
+    max-width: calc(3*(100vw/8));
+    /* min-width: 200px; */
+    width: auto;
+    height: auto;
+    width: 1200px;
 }
 
 /* TITLE */
@@ -8,7 +46,7 @@
     display: flex;
     align-items: center;
     height: 100%;
-    transform: translateY(-8px);
+    /* transform: translateY(-8px); */
 }
 
 .Grid-Title > h1 {
@@ -29,6 +67,8 @@
     flex-direction: column;
     /* height: 100%; */
     color: var(--main);
+    z-index: 4;
+    position: relative;
 }
 
 /* BODY TEXT */
@@ -37,4 +77,31 @@
     align-items: flex-start;
     color: var(--main);
     /* height: 100% */
+}
+
+
+/* BKG IMG ELEMENT */
+.Grid-Bkg-Img {
+    min-width: 100%;
+    min-height: 100%;
+    background-position: center;
+    background-size: contain;
+    animation-name: bkg-pan;
+    animation-duration: 1000s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bkg-pan {
+    from {
+        background-position: 0;
+    }
+
+    to {
+        background-position: 2000vw;
+    }
+}
+
+.bkg-haggadah {
+    background-image: url(../assets/images/technohaggadah-screenshot.png);
 }

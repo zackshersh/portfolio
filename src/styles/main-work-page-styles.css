@@ -1,22 +1,39 @@
 .Main-Work-Page {
     width: 100vw;
     height: 100vh;
-    /* display: flex;
-    flex-flow: column; */
 }
 
+.Main-Work-Page-Extended {
+    width: 100vw;
+    height: 150vh;
+    /* height: 100vh; */
+
+}
+
+
 *:hover {
-    cursor: url('../assets/images/hand.png') 4 12, auto
+    cursor: none;
 }
 
 .Grid-Cont {
     width: 100vw;
     height: 100%;
+    min-height: 1000px;
     flex: 1 1 auto;
     
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 0.8fr repeat(8, 1fr);
+    grid-template-rows: 72px repeat(8, calc(100vh/8));
+}
+
+.Main-Page-Item-Cont, .Grid-Wrapper {
+    /* min-height: 200px;
+    overflow: auto; */
+}
+
+.Main-Work-Page-Extended > .Grid-Cont {
+    grid-template-rows: repeat(24, 1fr);
+
 }
 
 .Grid-Cont > * {
@@ -50,8 +67,10 @@
 }
 
 .Main-Page-Item > img {
-    max-width: 90%;
-    max-height: 90%;
+    /* max-width: 90%;
+    max-height: 90%; */
+    max-width: calc(100vw/8.1);
+    max-height: calc(100vh/8.1);
     width: auto;
     height: auto;
     filter: saturate(0) contrast(1.3);

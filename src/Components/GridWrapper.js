@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function GridWrapper({aI,g,children,p,pT,pB,pR,pL}) {
+function GridWrapper({aI,g,children,p,pT,pB,pR,pL,onTop}) {
 
     const [col,row] = g ? g.split("-") : "";
     const active = aI== p;
@@ -9,7 +9,8 @@ function GridWrapper({aI,g,children,p,pT,pB,pR,pL}) {
         gridRow: row,
         gridColumn: col,
         opacity: active ? 1 : 0,
-        zindex: active ? 3 : 0,
+        zindex: active ? onTop ? 5 : 3 : 0,
+        position: "relative",
         display: active ? "block" : "none",
         paddingTop: pT ? "8px" : 0,
         paddingLeft: pL ? "8px" : 0,

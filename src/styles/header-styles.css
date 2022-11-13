@@ -4,6 +4,7 @@
     justify-content: center;
     background-color: var(--main);
     align-items: center;
+    min-height: 50px;
 }
 
 .Header-Wrapper {

@@ -81,7 +81,9 @@ const WorkPage = () => {
 
     return (
         <div className="Work-Page">
-            <Header />
+            <div className="Work-Page-Header-Cont">
+                <Header allWorkPage />
+            </div>
             <div className="Work-Wrapper">
                 <div className="Tags-Cont">
                     <p>Tags:</p>

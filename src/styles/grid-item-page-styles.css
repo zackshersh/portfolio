@@ -192,3 +192,9 @@
         font-size: 36px;
     }
 }
+
+@media (max-width: 600px){
+    .Grid-Title > h1 {
+        font-size: 30px;
+    }
+}

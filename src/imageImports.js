@@ -9,6 +9,9 @@ import tinyImg2 from "./assets/images/tinytown-screenshot2.png";
 
 
 import flowers from "./assets/images/fieldofdreams-flowers.png";
+import fieldGif from "./assets/images/fieldofdreams-demo.gif";
+import field1 from "./assets/images/field-of-dreams-1.jpg"
+import field2 from "./assets/images/field-of-dreams-4.jpg"
 
 
 import techno1 from "./assets/images/haggadah-1.gif"
@@ -29,7 +32,10 @@ export const tinyImgs = {
 }
 
 export const fieldImgs = {
-    img1: flowers
+    img1: flowers,
+    gif: fieldGif,
+    img2: field1,
+    img3: field2
 }
 
 export const technoImgs = {

@@ -6,7 +6,7 @@ import "../styles/header-styles.css"
 import standard from "../standardValues.json"
 import { setCSSMain } from '../utils';
 
-function Header({activeItem, setActiveItem}) {
+function Header({activeItem, setActiveItem, allWorkPage}) {
 
     const handleBack = () => {
         setActiveItem("all");
@@ -19,10 +19,12 @@ function Header({activeItem, setActiveItem}) {
                 { activeItem == "all" 
                 ? <Link to={"/"}>
                     <h3>Hi my name is Zack Hersh. Here is some stuff I made.</h3>
+                 </Link> : allWorkPage ?
+                 <Link to={"/featured-work"}>
+                    <h3>← Back to Featured Projects</h3>
                  </Link> :
                  <a>
-
-                     <h3 onMouseDown={handleBack}>← Back to all projects</h3>
+                     <h3 onMouseDown={handleBack}>← Back</h3>
                  </a>
 
                 }

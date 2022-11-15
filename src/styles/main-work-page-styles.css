@@ -12,7 +12,7 @@
 
 
 *:hover {
-    cursor: none;
+    /* cursor: none; */
 }
 
 .Grid-Cont {
@@ -59,7 +59,7 @@
 
 
 .Main-Page-Item {
-    width: 100%;
+    width: 120%;
     position: relative;
     background-color: white;
     display: flex;
@@ -81,7 +81,6 @@
 
 .Main-Page-Item > .Darker {
     filter: saturate(0) brightness(0.85) contrast(1.5);
-    
 }
 
 .Main-Page-Item > p {
@@ -94,6 +93,8 @@
 .Main-Page-Item > .Color-Overlay {
     min-width: 100%;
     min-height: 100%;
+    width: calc(100vw/8.1);
+    height: calc(100vh/8.1);
     position: absolute;
     top: 0;
     background-color: var(--main);
@@ -103,9 +104,23 @@
 
 
 
+
 /* CURSOR */
 .normal-hand-mask {
-    mask-image: url(../assets/images/hand-normal-mask.png)
+    /* mask-image: url(../assets/images/hand-normal-mask.png) */
+}
+
+@media (max-width: 600px){
+    .Main-Page-Item > img {
+        max-width: calc(100vw/4.1);
+        max-height: calc(100vh/4.1);
+    }
+    
+    .Main-Page-Item > .Color-Overlay {
+        max-width: calc(100vw/4.1);
+        max-height: calc(100vh/4.1);
+    }
+
 }
 
 

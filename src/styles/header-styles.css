@@ -20,3 +20,19 @@
     font-size: 14px;
 }
 
+
+.Work-Page-Header-Cont {
+    display: grid;
+    grid-template-rows: calc(100vh/16);
+    width: 100%;
+}
+
+.Work-Page-Header-Cont > .Header {
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--main);
+    flex: 0 1 auto;
+    grid-column: 1/9;
+    min-height: 50px;
+}
+
+

@@ -1,8 +1,11 @@
 import React, {useState} from 'react';
 
-function GridWrapper({aI,g,children,p,pT,pB,pR,pL,onTop}) {
+function GridWrapper({aI,g,sG,s,children,p,pT,pB,pR,pL,onTop}) {
 
-    const [col,row] = g ? g.split("-") : "";
+    let validGrid = s ? sG ? sG : g : g;
+
+
+    const [col,row] = validGrid ? validGrid.split("-") : "";
     const active = aI== p;
 
     const gridStyles = {

@@ -119,6 +119,20 @@
     }
 }
 
+.Grid-Bkg-Reverse {
+    animation-name: bkg-pan-reverse;
+}
+
+@keyframes bkg-pan-reverse {
+    from {
+        background-position: 0;
+    }
+
+    to {
+        background-position: -2000vw;
+    }
+}
+
 .Grid-Bkg-Vertical {
     animation-name: bkg-scroll;
 }
@@ -149,7 +163,10 @@
 
 .bkg-flowers {
     background-image: url(../assets/images/fieldofdreams-flowers.svg);
+}
 
+.bkg-field {
+    background-image: url(../assets/images/thefield.jpg);
 }
 
 
@@ -157,6 +174,7 @@
 /* IMAGE CONTAINER AND IMAGES */
 .Grid-Image-Container {
     display: flex;
+    justify-content: center;
     /* flex-wrap: wrap; */
     padding-top: 8px;
     width: 100%;
@@ -174,7 +192,8 @@
     max-height: 100%; */
     width: auto;
     height: auto;
-    width: 100%;
+    width: 70%;
+    /* max-height: 400px; */
     display: block;
     flex-shrink: 1;
     min-width: 10px;

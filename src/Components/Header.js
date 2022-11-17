@@ -18,7 +18,7 @@ function Header({activeItem, setActiveItem, allWorkPage}) {
             <div className='Header-Wrapper'>
                 { activeItem == "all" 
                 ? <Link to={"/"}>
-                    <h3>Hi my name is Zack Hersh. Here is some stuff I made.</h3>
+                    <h3>Hi my name is Zack Hersh.</h3>
                  </Link> : allWorkPage ?
                  <Link to={"/featured-work"}>
                     <h3>← Back to Featured Projects</h3>

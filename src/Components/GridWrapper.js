@@ -15,10 +15,10 @@ function GridWrapper({aI,g,sG,s,children,p,pT,pB,pR,pL,onTop}) {
         zindex: active ? onTop ? 5 : 3 : 0,
         position: "relative",
         display: active ? "block" : "none",
-        paddingTop: pT ? "8px" : 0,
-        paddingLeft: pL ? "8px" : 0,
-        paddingRight: pR ? "8px" : 0,
-        paddingBottom: pB ? "8px" : 0,
+        paddingTop: pT ? "16px" : 0,
+        paddingLeft: pL ? "16px" : 0,
+        paddingRight: pR ? "16px" : 0,
+        paddingBottom: pB ? "16px" : 0,
         
     }
 

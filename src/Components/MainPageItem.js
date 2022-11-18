@@ -4,7 +4,7 @@ import { setCSSMain } from '../utils';
 
 import standard from "../standardValues.json"
 
-function MainPageItem({img, grid, smallGrid, title, darker, lighter, to, activeItem, setActiveItem, color, isSmall, customFilter, emphasis, remainFor = []}) {
+function MainPageItem({img, grid, smallGrid, title, darker, lighter, to, activeItem, setActiveItem, color, isSmall, customFilter, emphasis, remainFor = [], pT,pB,pL,pR}) {
 
     const [redirecting, setRedirecting] = useState(false);
 
@@ -16,13 +16,17 @@ function MainPageItem({img, grid, smallGrid, title, darker, lighter, to, activeI
 
 
     let remain = remainFor.indexOf(activeItem) != -1 || activeItem == "all";
-    console.log(title,remain)
+
 
     const contStyles = {
         gridRow:row,
         gridColumn:col,
         opacity: active || activeItem == "all" || remain ? 1 : 0,
-        zindex: activeItem == "all" ? 3 : 2
+        zindex: activeItem == "all" ? 3 : 2,
+        paddingTop: pT ? "16px" : 0,
+        paddingLeft: pL ? "24px" : 0,
+        paddingRight: pR ? "24px" : 0,
+        paddingBottom: pB ? "16px" : 0,
     };
 
     const titleStyles = {

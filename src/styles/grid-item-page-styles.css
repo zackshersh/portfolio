@@ -67,6 +67,10 @@
     flex-grow: 1;
 }
 
+.Grid-Title-Small > h1 {
+    font-size: 36px;
+}
+
 /* BASIC INFO */
 .Grid-Basic-Info {
     display: flex;
@@ -167,6 +171,15 @@
 
 .bkg-field {
     background-image: url(../assets/images/thefield.jpg);
+}
+
+.bkg-3d {
+    background-image: url(../assets/images/3danatomy-duck.jpg);
+}
+
+.bkg-climate {
+    background-image: url(../assets/images/climate-map.svg);
+
 }
 
 

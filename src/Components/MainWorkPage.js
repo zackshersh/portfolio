@@ -17,6 +17,7 @@ import allImg from "../assets/images/all-work-thumbnail.png"
 import zackImg from "../assets/images/zack.png"
 import contactImg from "../assets/images/phone.png"
 import anatomyImg from "../assets/images/mallard.png"
+import climateImg from "../assets/images/climate-earth.jpg"
 
 
 import GridWrapper from './GridWrapper';
@@ -29,7 +30,7 @@ import __Spacer__ from './__Spacer__';
 import standard from "../standardValues.json"
 
 
-import { filterImgs, tinyImgs, fieldImgs, technoImgs } from '../imageImports';
+import { filterImgs, tinyImgs, fieldImgs, technoImgs, anatomyImgs, climateImgs } from '../imageImports';
 
 import Cursor from './Cursor';
 import GBkgImg from './GBkgImg';
@@ -57,7 +58,7 @@ function MainWorkPage(props) {
                 <Header activeItem={activeItem} setActiveItem={setActiveItem}/>
 
 
-                <MainPageItem img={filterImg} grid={"2/3-3/4"} isSmall={isSmallLayout} smallGrid={"2/4-3/5"}
+                <MainPageItem img={filterImg} grid={"2/3-3/4"} isSmall={isSmallLayout} smallGrid={"1/3-2/4"}
                 title="Image Filter Thingy"
                 activeItem={activeItem} setActiveItem={setActiveItem} color={"#3964ff"} customFilter={"brightness(0.85) contrast(1.5)"}/>
                     <GridWrapper g={"3/6-3/4"} sG={"4/6-3/4"} aI={activeItem} p="Image Filter Thingy" s={isSmallLayout}>
@@ -104,7 +105,7 @@ function MainWorkPage(props) {
                 </GridWrapper> */}
 
                 
-                <MainPageItem img={haggadahImg} grid={"3/4-3/4"} smallGrid={"3/5-6/7"} isSmall={isSmallLayout} title="The Techno-Haggadah"
+                <MainPageItem img={haggadahImg} grid={"3/4-3/4"} smallGrid={"3/5-2/4"} isSmall={isSmallLayout} title="The Techno-Haggadah"
                 activeItem={activeItem} setActiveItem={setActiveItem} customFilter={"brightness(1) contrast(1.5)"}/>
                     <GridWrapper g={"1/3-3/4"} sG={"1/3-6/7"} aI={activeItem} p="The Techno-Haggadah" s={isSmallLayout}>
                         <GdTitle alignR>The</GdTitle>
@@ -143,7 +144,7 @@ function MainWorkPage(props) {
                     </GridWrapper>
 
 
-                <MainPageItem img={townImg} grid={"4/5-3/4"} smallGrid={"3/5-4/5"} title="Tiny Town"
+                <MainPageItem img={townImg} grid={"4/5-3/4"} smallGrid={"5/7-2/4"} title="Tiny Town" isSmall={isSmallLayout}
                 activeItem={activeItem} setActiveItem={setActiveItem} color={"#068100"}/>
                     <GridWrapper g={"1/4-3/4"} sG={"1/5-4/6"} s={isSmallLayout} aI={activeItem} p="Tiny Town">
                         <GdTitle alignR>Tiny</GdTitle>
@@ -155,7 +156,7 @@ function MainWorkPage(props) {
                         <GBkgImg vertical bkg={"tinytown"}></GBkgImg>
                     </GridWrapper>
 
-                    <GridWrapper onTop g={"3/8-4/10"} sG={"2/8-6/10"} s={isSmallLayout} aI={activeItem} p="Tiny Town" pL pR>
+                    <GridWrapper onTop g={"3/9-4/10"} sG={"2/8-6/10"} s={isSmallLayout} aI={activeItem} p="Tiny Town" pL pR>
                         <__Spacer__/>
                         <__Spacer__/>
                         <GBasicInfo link={"https://tiny-town.herokuapp.com/"} date={"July, 2021"} repo={"https://github.com/Gpphelps/tiny-town"}></GBasicInfo>
@@ -188,13 +189,13 @@ function MainWorkPage(props) {
 
 
 
-                <MainPageItem img={fieldImg} grid={"2/3-4/5"} smallGrid={"6/8-6/7"} isSmall={isSmallLayout} title="Field of Dreams"
+                <MainPageItem img={fieldImg} grid={"2/3-4/5"} smallGrid={"1/3-4/5"} isSmall={isSmallLayout} title="Field of Dreams"
                 activeItem={activeItem} setActiveItem={setActiveItem} color="#d90971"/>
                     <GridWrapper g={"3/9-4/5"} sG={"1/6-6/7"} s={isSmallLayout} aI={activeItem} p="Field of Dreams">
                         <GdTitle>Field of Dreams</GdTitle>
                     </GridWrapper>
                     <GridWrapper g={"1/9-2/4"} aI={activeItem} p="Field of Dreams">
-                        <GBkgImg bkg={"flowers"} reverse></GBkgImg>
+                        <GBkgImg bkg={"flowers"}></GBkgImg>
                     </GridWrapper>
                     {/* <GridWrapper g={"1/9-2/4"} aI={activeItem} p="Field of Dreams">
                         <GBkgImg bkg={"field"}></GBkgImg>
@@ -229,11 +230,14 @@ function MainWorkPage(props) {
                     </GridWrapper>
 
                 
-                <MainPageItem img={anatomyImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Anatomy of a 3D Scene"} color={"black"} grid={"5/6-3/4"} smallGrid={"5/7-8/9"} isSmall={isSmallLayout} customFilter={"brightness(0.85) contrast(2)"}></MainPageItem>
+                <MainPageItem img={anatomyImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Anatomy of a 3D Scene"} color={"black"} grid={"5/6-3/4"} smallGrid={"7/9-2/4"} isSmall={isSmallLayout} customFilter={"brightness(0.85) contrast(2)"}></MainPageItem>
                     <GridWrapper aI={activeItem} p="Anatomy of a 3D Scene" g={"1/5-3/4"} sG={"2/5-4/9"} s={isSmallLayout}>
-                        <GdTitle alignR>Anatomy of a 3D Scene</GdTitle>
+                        <GdTitle small alignR>Anatomy of a 3D Scene</GdTitle>
                     </GridWrapper>
-                    <GridWrapper aI={activeItem} p="Anatomy of a 3D Scene" g={"2/6-4/9"} sG={"2/9-9/14"} s={isSmallLayout} pL pR pT>
+                    <GridWrapper aI={activeItem} p="Anatomy of a 3D Scene" g={"6/9-2/16"} sG={"2/5-4/9"} s={isSmallLayout}>
+                        <GBkgImg bkg={"3d"} vertical></GBkgImg>
+                    </GridWrapper>
+                    <GridWrapper aI={activeItem} p="Anatomy of a 3D Scene" g={"1/6-4/9"} sG={"2/9-9/14"} s={isSmallLayout} pL pR pT>
                         <__Spacer__></__Spacer__>
                         <GBasicInfo date={"Oct. 2022"} link={"http://zack-is.online/487/build/index.html"}></GBasicInfo>
                         <__Spacer__></__Spacer__>
@@ -247,15 +251,83 @@ function MainWorkPage(props) {
                         <GBodyText>
                             The project was built in ReactJS and utilized ThreeJS for all of its 3D aspects.
                         </GBodyText>
+                        <__Spacer__></__Spacer__>
+                        <div className="Grid-Image-Container">
+                            <img loading="lazy" src={anatomyImgs.gif1}></img>
+                        </div>
+                        <div className="Grid-Image-Container">
+                            <img loading="lazy" src={anatomyImgs.gif2}></img>
+                        </div>
+                        <div className="Grid-Image-Container">
+                            <img loading="lazy" src={anatomyImgs.gif3}></img>
+                        </div>
+                        <__Spacer__></__Spacer__>
+                        <__Spacer__></__Spacer__>
+                        <__Spacer__></__Spacer__>
+                        <__Spacer__></__Spacer__>
+                        <__Spacer__></__Spacer__>
+                        <__Spacer__></__Spacer__>
+                        <__Spacer__></__Spacer__>
                     </GridWrapper>
 
 
 
-                <MainPageItem img={allImg} grid={"7/8-3/4"} smallGrid={"2/4-8/9"} isSmall={isSmallLayout} title={"All of my Work"} activeItem={activeItem} setActiveItem={setActiveItem} to={"all-work"} color={standard.main} customFilter={"brightness(1.1) contrast(1.3)"} emphasis></MainPageItem>
+                
+                <MainPageItem img={climateImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Unfair Climate Change"} color={"rgb(77, 102, 125)"} grid={"3/4-4/5"} smallGrid={"3/5-4/5"} isSmall={isSmallLayout} customFilter={"brightness(1) contrast(1.6)"}></MainPageItem>
+                    <GridWrapper aI={activeItem} p="Unfair Climate Change" g={"4/8-4/5"} sG={"2/5-4/9"} s={isSmallLayout}>
+                        <GdTitle small>The Unfair Reality of Climate Change</GdTitle>
+                    </GridWrapper>
+                    <GridWrapper aI={activeItem} p="Unfair Climate Change" g={"1/9-2/4"} sG={"2/5-4/9"} s={isSmallLayout}>
+                        <GBkgImg bkg={"climate"}></GBkgImg>
+                    </GridWrapper>
+                    <GridWrapper aI={activeItem} p="Unfair Climate Change" g={"2/8-5/10"} sG={"2/5-4/9"} s={isSmallLayout}>
+                        <GBasicInfo date={"Nov. 2022"} link={"http://zack-is.online/487/climate-fairness/index.html"}></GBasicInfo>
+                        <__Spacer__/>
+                        <hr />
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <GBodyText>
+                            I created The Unfair Reality of Climate change for a project for an interactive media class I took at UNC in the Fall of 2022. The project assignment required we visualize a dataset in the style of a news media organization, I chose to do this project in the style of Vox Media. The site compares the greenhouse gases emitted by a given country with a number of different metrics that indicate that country's vulnerability to climate change. These various comparisons are used to compute a relative level of "unfairness" for every country, which illuminates which countries can be expected to suffer the most significant effects from climate change after contributing the smallest amount of greenhouse gases. 
+                        </GBodyText>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <div className='Grid-Image-Container'>
+                            <img loading="lazy" src={climateImgs.img1}></img>
+                        </div>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <GBodyText>
+                            One metric used is a country's GDP, the reasoning being wealthier countries will have more resources with which to combat the effects of climate change. The countries with the lowest GDPs, often have contributed the least to climate change, and thusly will experience very "unfair" effects.
+                        </GBodyText>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <div className='Grid-Image-Container'>
+                            <img loading="lazy" src={climateImgs.img2}></img>
+                        </div>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <GBodyText>
+                            D3js is used to visualize these comparisons on a world map and a scatterplot.
+                        </GBodyText>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                    </GridWrapper>
+                    
+
+
+                {/* --------------------------------------------------- */}
 
 
 
-                <MainPageItem img={zackImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"About Me"} color={"#ff5500"} grid={"7/8-4/5"} smallGrid={"7/9-3/4"} isSmall={isSmallLayout} customFilter={"brightness(1.8) contrast(1.3)"} emphasis></MainPageItem>
+                <MainPageItem img={allImg} grid={"7/8-3/4"} smallGrid={"1/3-6/7"} isSmall={isSmallLayout} title={"All of my Work"} activeItem={activeItem} setActiveItem={setActiveItem} to={"all-work"} color={standard.main} customFilter={"brightness(1.1) contrast(1.3)"} emphasis></MainPageItem>
+
+
+
+                <MainPageItem img={zackImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"About Me"} color={"#ff5500"} grid={"7/8-4/5"} smallGrid={"3/5-6/7"} isSmall={isSmallLayout} customFilter={"brightness(1.8) contrast(1.3)"} emphasis></MainPageItem>
                     <GridWrapper aI={activeItem} p="About Me" g={"3/7-3/4"} sG={"3/7-3/5"} s={isSmallLayout}>
                         <GdTitle alignR>About Me</GdTitle>
                     </GridWrapper>
@@ -275,7 +347,7 @@ function MainWorkPage(props) {
                     </GridWrapper>
 
 
-                <MainPageItem img={contactImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Contact Me"} color={"#c92469"} grid={"7/8-5/6"} smallGrid={"7/9-8/9"} customFilter={"brightness(0.85) contrast(2)"} emphasis remainFor={["About Me"]}></MainPageItem>
+                <MainPageItem img={contactImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Contact Me"} color={"#c92469"} grid={"7/8-5/6"} smallGrid={"5/7-6/7"} isSmall={isSmallLayout} customFilter={"brightness(0.85) contrast(2)"} emphasis remainFor={["About Me"]}></MainPageItem>
                     <GridWrapper aI={activeItem} p="Contact Me" g={"3/7-8/9"}>
                         <GdTitle alignR>Contact Me</GdTitle>
                     </GridWrapper>

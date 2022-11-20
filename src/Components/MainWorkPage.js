@@ -9,14 +9,14 @@ import AlphaText from './Modules/AlphaText';
 
 import MainPageItem from './MainPageItem';
 
-import filterImg from "../assets/images/filter-nobkg.png"
-import townImg from "../assets/images/tiny-town-nobkg.png"
-import haggadahImg from "../assets/images/technohaggadah-nobkg.png"
-import fieldImg from "../assets/images/fieldofdreams-nobkg.png"
-import allImg from "../assets/images/all-work-thumbnail.png"
-import zackImg from "../assets/images/zack.png"
-import contactImg from "../assets/images/phone.png"
-import anatomyImg from "../assets/images/mallard.png"
+import filterImg from "../assets/images/filter-nobkg.jpg"
+import townImg from "../assets/images/tiny-town-nobkg.jpg"
+import haggadahImg from "../assets/images/technohaggadah-nobkg.jpg"
+import fieldImg from "../assets/images/flowerbunch.jpg"
+import allImg from "../assets/images/all-work-thumbnail.jpg"
+import zackImg from "../assets/images/zack.jpg"
+import contactImg from "../assets/images/phone.jpg"
+import anatomyImg from "../assets/images/mallard.jpg"
 import climateImg from "../assets/images/climate-earth.jpg"
 
 
@@ -35,6 +35,7 @@ import { filterImgs, tinyImgs, fieldImgs, technoImgs, anatomyImgs, climateImgs }
 import Cursor from './Cursor';
 import GBkgImg from './GBkgImg';
 import { useMediaQuery } from '../hooks';
+import GBodyList from './GBodyList';
 
 function MainWorkPage(props) {
 
@@ -60,15 +61,15 @@ function MainWorkPage(props) {
 
                 <MainPageItem img={filterImg} grid={"2/3-3/4"} isSmall={isSmallLayout} smallGrid={"1/3-2/4"}
                 title="Image Filter Thingy"
-                activeItem={activeItem} setActiveItem={setActiveItem} color={"#3964ff"} customFilter={"brightness(0.85) contrast(1.5)"}/>
-                    <GridWrapper g={"3/6-3/4"} sG={"4/6-3/4"} aI={activeItem} p="Image Filter Thingy" s={isSmallLayout}>
+                activeItem={activeItem} setActiveItem={setActiveItem} color={"#3964ff"} customFilter={"brightness(1.1) contrast(1.5)"}/>
+                    <GridWrapper g={"3/6-3/4"} sG={"3/6-2/4"} aI={activeItem} p="Image Filter Thingy" s={isSmallLayout}>
                         <GdTitle>Image Filter Thingy</GdTitle>
                     </GridWrapper>
                     <GridWrapper g={"6/9-2/16"} aI={activeItem} p="Image Filter Thingy" pR>
                         <GBkgImg vertical bkg="filter"></GBkgImg>
                     </GridWrapper>
 
-                    <GridWrapper g={"1/6-4/5"} sG={"2/6-4/5"} s={isSmallLayout} aI={activeItem} p="Image Filter Thingy" pT pR pL>
+                    <GridWrapper g={"1/6-4/5"} sG={"1/6-4/5"} s={isSmallLayout} aI={activeItem} p="Image Filter Thingy" pT pR pL>
                         <GBasicInfo date={"Nov. 2021"} link={"https://zackshersh.github.io/little-image-filter-thingy-app/"} repo={"https://github.com/zackshersh/little-image-filter-thingy-app"}>
                         </GBasicInfo>
                         <__Spacer__></__Spacer__>
@@ -107,10 +108,10 @@ function MainWorkPage(props) {
                 
                 <MainPageItem img={haggadahImg} grid={"3/4-3/4"} smallGrid={"3/5-2/4"} isSmall={isSmallLayout} title="The Techno-Haggadah"
                 activeItem={activeItem} setActiveItem={setActiveItem} customFilter={"brightness(1) contrast(1.5)"}/>
-                    <GridWrapper g={"1/3-3/4"} sG={"1/3-6/7"} aI={activeItem} p="The Techno-Haggadah" s={isSmallLayout}>
+                    <GridWrapper g={"1/3-3/4"} sG={"1/3-2/4"} aI={activeItem} p="The Techno-Haggadah" s={isSmallLayout}>
                         <GdTitle alignR>The</GdTitle>
                     </GridWrapper>
-                    <GridWrapper g={"4/9-3/4"} sG={"5/9-6/7"} aI={activeItem} p="The Techno-Haggadah" s={isSmallLayout}>
+                    <GridWrapper g={"4/9-3/4"} sG={"5/9-2/4"} aI={activeItem} p="The Techno-Haggadah" s={isSmallLayout}>
                         <GdTitle>Techno-Haggadah</GdTitle>
                     </GridWrapper>
                     <GridWrapper g={"6/9-4/12"} aI={activeItem} p="The Techno-Haggadah" pL>
@@ -146,17 +147,17 @@ function MainWorkPage(props) {
 
                 <MainPageItem img={townImg} grid={"4/5-3/4"} smallGrid={"5/7-2/4"} title="Tiny Town" isSmall={isSmallLayout}
                 activeItem={activeItem} setActiveItem={setActiveItem} color={"#068100"}/>
-                    <GridWrapper g={"1/4-3/4"} sG={"1/5-4/6"} s={isSmallLayout} aI={activeItem} p="Tiny Town">
-                        <GdTitle alignR>Tiny</GdTitle>
+                    <GridWrapper g={"5/9-3/4"} sG={"1/5-2/4"} s={isSmallLayout} aI={activeItem} p="Tiny Town">
+                        <GdTitle alignRSmall isSmall={isSmallLayout}>Tiny Town</GdTitle>
                     </GridWrapper>
-                    <GridWrapper g={"5/9-3/4"} sG={"6/9-4/6"} s={isSmallLayout} aI={activeItem} p="Tiny Town">
+                    {/* <GridWrapper g={"5/9-3/4"} sG={"7/9-2/4"} s={isSmallLayout} aI={activeItem} p="Tiny Town">
                         <GdTitle>Town</GdTitle>
-                    </GridWrapper>
-                    <GridWrapper g={"1/3-2/16"} sG={"1/9-2/4"} s={isSmallLayout} aI={activeItem} p="Tiny Town">
+                    </GridWrapper> */}
+                    <GridWrapper g={"1/3-2/16"} sG={"7/9-2/12"} s={isSmallLayout} aI={activeItem} p="Tiny Town">
                         <GBkgImg vertical bkg={"tinytown"}></GBkgImg>
                     </GridWrapper>
 
-                    <GridWrapper onTop g={"3/9-4/10"} sG={"2/8-6/10"} s={isSmallLayout} aI={activeItem} p="Tiny Town" pL pR>
+                    <GridWrapper onTop g={"3/9-4/10"} sG={"1/7-4/10"} s={isSmallLayout} aI={activeItem} p="Tiny Town" pL pR>
                         <__Spacer__/>
                         <__Spacer__/>
                         <GBasicInfo link={"https://tiny-town.herokuapp.com/"} date={"July, 2021"} repo={"https://github.com/Gpphelps/tiny-town"}></GBasicInfo>
@@ -189,9 +190,9 @@ function MainWorkPage(props) {
 
 
 
-                <MainPageItem img={fieldImg} grid={"2/3-4/5"} smallGrid={"1/3-4/5"} isSmall={isSmallLayout} title="Field of Dreams"
-                activeItem={activeItem} setActiveItem={setActiveItem} color="#d90971"/>
-                    <GridWrapper g={"3/9-4/5"} sG={"1/6-6/7"} s={isSmallLayout} aI={activeItem} p="Field of Dreams">
+                <MainPageItem img={fieldImg} grid={"2/3-4/5"} smallGrid={"1/3-4/5"} isSmall={isSmallLayout} customFilter={"brightness(1.3) contrast(1.2)"} title="Field of Dreams"
+                activeItem={activeItem} setActiveItem={setActiveItem} color="rgb(240,21,120)"/>
+                    <GridWrapper g={"3/9-4/5"} sG={"3/9-4/5"} s={isSmallLayout} aI={activeItem} p="Field of Dreams">
                         <GdTitle>Field of Dreams</GdTitle>
                     </GridWrapper>
                     <GridWrapper g={"1/9-2/4"} aI={activeItem} p="Field of Dreams">
@@ -200,10 +201,14 @@ function MainWorkPage(props) {
                     {/* <GridWrapper g={"1/9-2/4"} aI={activeItem} p="Field of Dreams">
                         <GBkgImg bkg={"field"}></GBkgImg>
                     </GridWrapper> */}
-                    <GridWrapper g={"2/8-5/10"} aI={activeItem} p="Field of Dreams" pL pR>
+                    <GridWrapper g={"2/8-5/10"} sG={"1/9"} s={isSmallLayout} aI={activeItem} p="Field of Dreams" pL pR>
                         <GBasicInfo date="Apr. 2021" link={"https://fields-of-dreams.herokuapp.com/"} repo={"https://github.com/Gpphelps/field-of-dreams"}></GBasicInfo>
                         <__Spacer__></__Spacer__>
                         <hr />
+                        <__Spacer__></__Spacer__>
+                        <div className="Grid-Image-Container">
+                            <img src={fieldImgs.img3} loading="lazy"></img>
+                        </div>
                         <__Spacer__></__Spacer__>
                         <__Spacer__></__Spacer__>
                         <GBodyText>
@@ -218,11 +223,7 @@ function MainWorkPage(props) {
                         <GBodyText>
                             In creating this project with a group, I took on a leadership role in implementing the envisioned final product which greatly strayed from the types of projects other group were creating. I was the sole developer responsible for programming and optimizing the code which rendered the user created flowers in the editor and on the collective field. I built out the application’s frontend, creating UI elements and working on the novel issues relating to storing and retrieving the user created flower parameters inside of the MySQL based backend that my group mates had created. Completing this project taught me about the process of synthesizing a user friendly and functional final product from an original concept.
                         </GBodyText>
-                        <__Spacer__></__Spacer__>
-                        <__Spacer__></__Spacer__>
-                        <div className="Grid-Image-Container">
-                            <img src={fieldImgs.img3} loading="lazy"></img>
-                        </div>
+
                         <__Spacer__></__Spacer__>
                         <__Spacer__></__Spacer__>
                         <__Spacer__></__Spacer__>
@@ -231,13 +232,13 @@ function MainWorkPage(props) {
 
                 
                 <MainPageItem img={anatomyImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Anatomy of a 3D Scene"} color={"black"} grid={"5/6-3/4"} smallGrid={"7/9-2/4"} isSmall={isSmallLayout} customFilter={"brightness(0.85) contrast(2)"}></MainPageItem>
-                    <GridWrapper aI={activeItem} p="Anatomy of a 3D Scene" g={"1/5-3/4"} sG={"2/5-4/9"} s={isSmallLayout}>
+                    <GridWrapper aI={activeItem} p="Anatomy of a 3D Scene" g={"1/5-3/4"} sG={"3/7-2/4"} s={isSmallLayout}>
                         <GdTitle small alignR>Anatomy of a 3D Scene</GdTitle>
                     </GridWrapper>
-                    <GridWrapper aI={activeItem} p="Anatomy of a 3D Scene" g={"6/9-2/16"} sG={"2/5-4/9"} s={isSmallLayout}>
+                    <GridWrapper aI={activeItem} p="Anatomy of a 3D Scene" g={"6/9-2/16"} sG={"1/3-2/9"} s={isSmallLayout}>
                         <GBkgImg bkg={"3d"} vertical></GBkgImg>
                     </GridWrapper>
-                    <GridWrapper aI={activeItem} p="Anatomy of a 3D Scene" g={"1/6-4/9"} sG={"2/9-9/14"} s={isSmallLayout} pL pR pT>
+                    <GridWrapper aI={activeItem} p="Anatomy of a 3D Scene" g={"1/6-4/9"} sG={"3/9-4/14"} s={isSmallLayout} pL pR pT>
                         <__Spacer__></__Spacer__>
                         <GBasicInfo date={"Oct. 2022"} link={"http://zack-is.online/487/build/index.html"}></GBasicInfo>
                         <__Spacer__></__Spacer__>
@@ -274,13 +275,13 @@ function MainWorkPage(props) {
 
                 
                 <MainPageItem img={climateImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Unfair Climate Change"} color={"rgb(77, 102, 125)"} grid={"3/4-4/5"} smallGrid={"3/5-4/5"} isSmall={isSmallLayout} customFilter={"brightness(1) contrast(1.6)"}></MainPageItem>
-                    <GridWrapper aI={activeItem} p="Unfair Climate Change" g={"4/8-4/5"} sG={"2/5-4/9"} s={isSmallLayout}>
+                    <GridWrapper aI={activeItem} p="Unfair Climate Change" g={"4/8-4/5"} sG={"5/9-4/5"} s={isSmallLayout}>
                         <GdTitle small>The Unfair Reality of Climate Change</GdTitle>
                     </GridWrapper>
-                    <GridWrapper aI={activeItem} p="Unfair Climate Change" g={"1/9-2/4"} sG={"2/5-4/9"} s={isSmallLayout}>
+                    <GridWrapper aI={activeItem} p="Unfair Climate Change" g={"1/9-2/4"} sG={"1/9-2/4"} s={isSmallLayout}>
                         <GBkgImg bkg={"climate"}></GBkgImg>
                     </GridWrapper>
-                    <GridWrapper aI={activeItem} p="Unfair Climate Change" g={"2/8-5/10"} sG={"2/5-4/9"} s={isSmallLayout}>
+                    <GridWrapper aI={activeItem} p="Unfair Climate Change" g={"2/8-5/10"} sG={"1/9-5/10"} s={isSmallLayout} pL pR>
                         <GBasicInfo date={"Nov. 2022"} link={"http://zack-is.online/487/climate-fairness/index.html"}></GBasicInfo>
                         <__Spacer__/>
                         <hr />
@@ -323,33 +324,43 @@ function MainWorkPage(props) {
 
 
 
-                <MainPageItem img={allImg} grid={"7/8-3/4"} smallGrid={"1/3-6/7"} isSmall={isSmallLayout} title={"All of my Work"} activeItem={activeItem} setActiveItem={setActiveItem} to={"all-work"} color={standard.main} customFilter={"brightness(1.1) contrast(1.3)"} emphasis></MainPageItem>
+                <MainPageItem img={allImg} grid={"7/8-3/4"} smallGrid={"1/3-6/7"} isSmall={isSmallLayout} title={"Creative Work"} activeItem={activeItem} setActiveItem={setActiveItem} to={"all-work"} color={standard.main} customFilter={"brightness(1.1) contrast(1.3)"} emphasis></MainPageItem>
 
 
 
                 <MainPageItem img={zackImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"About Me"} color={"#ff5500"} grid={"7/8-4/5"} smallGrid={"3/5-6/7"} isSmall={isSmallLayout} customFilter={"brightness(1.8) contrast(1.3)"} emphasis></MainPageItem>
-                    <GridWrapper aI={activeItem} p="About Me" g={"3/7-3/4"} sG={"3/7-3/5"} s={isSmallLayout}>
+                    <GridWrapper aI={activeItem} p="About Me" g={"3/7-3/4"} sG={"3/7-2/3"} s={isSmallLayout} pT>
                         <GdTitle alignR>About Me</GdTitle>
                     </GridWrapper>
-                    <GridWrapper aI={activeItem} p="About Me" g={"2/7-4/8"} sG={"2/7-5/8"} s={isSmallLayout}>
+                    <GridWrapper aI={activeItem} p="About Me" g={"2/7-4/8"} sG={"1/9-3/6"} s={isSmallLayout} scroll mR pL pT>
                         <__Spacer__></__Spacer__>
                         <GBodyText>
-                            In creating this project with a group, I took on a leadership role in implementing the envisioned final product which greatly strayed from the types of projects other group were creating. I was the sole developer responsible for programming and optimizing the code which rendered the user created flowers in the editor and on the collective field. I built out the application’s frontend, creating UI elements and working on the novel issues relating to storing and retrieving the user created flower parameters inside of the MySQL based backend that my group mates had created. Completing this project taught me about the process of synthesizing a user friendly and functional final product from an original concept.
+                            As a web developer, I find myself drawn to interesting visual design and creating unique and creative experiences.
                         </GBodyText>
                         <__Spacer__></__Spacer__>
                         <GBodyText>
-                            In creating this project with a group, I took on a leadership role in implementing the envisioned final product which greatly strayed from the types of projects other group were creating. I was the sole developer responsible for programming and optimizing the code which rendered the user created flowers in the editor and on the collective field. I built out the application’s frontend, creating UI elements and working on the novel issues relating to storing and retrieving the user created flower parameters inside of the MySQL based backend that my group mates had created. Completing this project taught me about the process of synthesizing a user friendly and functional final product from an original concept.
+                            I have been interested in frontend web development since I took an intro to web development class at UNC in 2019. Web development and programming felt like another way to explore my love of design and making "cool stuff", which I had previously explored through graphic design and photography.
                         </GBodyText>
                         <__Spacer__></__Spacer__>
                         <GBodyText>
-                            In creating this project with a group, I took on a leadership role in implementing the envisioned final product which greatly strayed from the types of projects other group were creating. I was the sole developer responsible for programming and optimizing the code which rendered the user created flowers in the editor and on the collective field. I built out the application’s frontend, creating UI elements and working on the novel issues relating to storing and retrieving the user created flower parameters inside of the MySQL based backend that my group mates had created. Completing this project taught me about the process of synthesizing a user friendly and functional final product from an original concept.
+                            In the Spring of 2021 I took a semester off of school to further explore my interest in programming. I enrolled in a 24 week fullstack coding bootcamp through UNC, where I learned aspects of web development from ReactJS on the frontend to server routing and database operation on the backend <i>(See Tiny Town and Field of Dreams)</i>.
                         </GBodyText>
+                        <__Spacer__></__Spacer__>
+                        <GBodyText>
+                            Since then I have continued to explore web development through classes at UNC and personally motivated projects.
+                        </GBodyText>
+                        <__Spacer__></__Spacer__>
+                        <__Spacer__></__Spacer__>
+                        <GBodyList title={"Skills"} 
+                        items={["React.js","MySQL and MongoDB","Express.js","Test driven development with Jest","Three.js","D3.js", "Adobe Photoshop and Illustrator"]}>
+                        </GBodyList>
                     </GridWrapper>
 
 
-                <MainPageItem img={contactImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Contact Me"} color={"#c92469"} grid={"7/8-5/6"} smallGrid={"5/7-6/7"} isSmall={isSmallLayout} customFilter={"brightness(0.85) contrast(2)"} emphasis remainFor={["About Me"]}></MainPageItem>
-                    <GridWrapper aI={activeItem} p="Contact Me" g={"3/7-8/9"}>
-                        <GdTitle alignR>Contact Me</GdTitle>
+                <MainPageItem img={contactImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Contact Me"} color={"#c92469"} grid={"7/8-5/6"} smallGrid={"5/7-6/7"} isSmall={isSmallLayout} customFilter={"brightness(0.7) contrast(4)"} emphasis remainFor={["About Me"]}></MainPageItem>
+                    <GridWrapper aI={activeItem} p="Contact Me" g={"1/7-5/6"} sG={"1/8-5/6"} s={isSmallLayout} pL>
+                        <GdTitle alignR xSmall alignBottom>You can reach me at: <br/> <a href='mailto:zackshersh@gmail.com'>zackshersh@gmail.com</a></GdTitle>
+                        
                     </GridWrapper>
             </main>
         </div>

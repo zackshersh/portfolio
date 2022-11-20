@@ -67,8 +67,21 @@
     flex-grow: 1;
 }
 
+.Grid-Title > h1 > a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.Grid-Title > h1 > a:hover {
+    background-color: var(--main);
+    color: var(--light)
+}
+
 .Grid-Title-Small > h1 {
     font-size: 36px;
+}
+
+.Grid-Title-XSmall > h1 {
+    font-size: 32px;
 }
 
 /* BASIC INFO */
@@ -91,6 +104,7 @@
     display: flex;
     align-items: flex-start;
     color: var(--main);
+    /* max-width: 800px; */
     /* height: 100% */
 }
 
@@ -106,7 +120,7 @@
     animation-duration: 1000s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    background-color: darkblue;
+    background-color: #aaaaaa;
 }
 
 .Grid-Bkg-Horizontal {
@@ -215,18 +229,38 @@
     margin-top: 8px;
 }
 
-.Body-Image {
 
+.Grid-Body-List {
+    color: var(--main);
 }
+
+.Grid-Body-List p {
+    text-decoration: underline;
+    margin-bottom: 8px;
+}
+
+
 
 @media (max-width: 860px) {
     .Grid-Title > h1 {
         font-size: 36px;
+    }
+
+    .Grid-Title-XSmall > h1 {
+        font-size: 28px;
     }
 }
 
 @media (max-width: 600px){
     .Grid-Title > h1 {
         font-size: 30px;
+    }
+
+    .Grid-Title-XSmall > h1 {
+        font-size: 20px;
+    }
+
+    .Grid-Image-Container > img {
+        width: 90%;
     }
 }

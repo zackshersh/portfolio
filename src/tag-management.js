@@ -8,8 +8,8 @@ class Tag{
 
 
 export let tags = [
-    new Tag('creative'),
-    new Tag('web'),
+    // new Tag('creative'),
+    // new Tag('web'),
     new Tag('project'),
     new Tag('single item'),
     new Tag('physical'),

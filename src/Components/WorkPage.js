@@ -3,7 +3,7 @@ import { useState, useEffect } from "react"
 import TagButton from "./TagButton"
 import { tags, reorderTags } from "../tag-management"
 
-import { items } from "../content"
+import { items } from "../content-creativeOnly"
 import ContentWidget from "./ContentWidget"
 
 import Title from "./Title"

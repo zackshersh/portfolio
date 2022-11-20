@@ -48,10 +48,11 @@
     cursor: pointer;
 }
 
-.Title-Wrapper > button:hover {
+.Work-Button:hover {
     background-color: var(--main);
     color: var(--light);
 }
+
 
 .Main-Title {
     display: block;

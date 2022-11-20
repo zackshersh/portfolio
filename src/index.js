@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {
     BrowserRouter,
-    HashRouter
+    HashRouter,
     Routes,
     Route,
 } from "react-router-dom";

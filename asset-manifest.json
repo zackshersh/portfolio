@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/temporary-portfolio/static/css/main.1a515d38.css",
-    "main.js": "/temporary-portfolio/static/js/main.5f92745b.js",
+    "main.js": "/temporary-portfolio/static/js/main.b29dd6cc.js",
     "static/media/image-filter-app-demo_AdobeExpress-2.gif": "/temporary-portfolio/static/media/image-filter-app-demo_AdobeExpress-2.590e8072300943bd6e0a.gif",
     "static/media/3danatomy-3.gif": "/temporary-portfolio/static/media/3danatomy-3.5d448410017f33334443.gif",
     "static/media/3danatomy-2.gif": "/temporary-portfolio/static/media/3danatomy-2.8f520b21fd4e1803fdbc.gif",
@@ -40,10 +40,10 @@
     "static/media/filter-nobkg.jpg": "/temporary-portfolio/static/media/filter-nobkg.4c8a0fa1c6ba3abcc121.jpg",
     "index.html": "/temporary-portfolio/index.html",
     "main.1a515d38.css.map": "/temporary-portfolio/static/css/main.1a515d38.css.map",
-    "main.5f92745b.js.map": "/temporary-portfolio/static/js/main.5f92745b.js.map"
+    "main.b29dd6cc.js.map": "/temporary-portfolio/static/js/main.b29dd6cc.js.map"
   },
   "entrypoints": [
     "static/css/main.1a515d38.css",
-    "static/js/main.5f92745b.js"
+    "static/js/main.b29dd6cc.js"
   ]
 }

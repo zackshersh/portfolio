@@ -13,7 +13,7 @@ import Title from './Components/Title';
 import WorkPage from './Components/WorkPage';
 
 
-ReactDOM.render( <HashRouter basename={process.env.PUBLIC_URL}>
+ReactDOM.render( <HashRouter>
     <Routes>
         <Route exact path='/' element={<Title />}></Route>
         <Route path='/featured-work' element={<MainWorkPage />}></Route>

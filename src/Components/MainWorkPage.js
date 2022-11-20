@@ -53,7 +53,7 @@ function MainWorkPage(props) {
 
 
     return (
-        <div onMouseMove={mouseMove} className={`Main-Work-Page${activeItem != "all" ? "":""}`}>
+        <div className={`Main-Work-Page${activeItem != "all" ? "":""}`}>
             {/* <Cursor x={mousePos.x} y={mousePos.y}/> */}
             <main className='Grid-Cont'>
                 <Header activeItem={activeItem} setActiveItem={setActiveItem}/>

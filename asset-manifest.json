@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.d6c02109.css",
-    "main.js": "./static/js/main.06bf699d.js",
+    "main.js": "./static/js/main.07ca1dbf.js",
     "static/media/image-filter-app-demo_AdobeExpress-2.gif": "./static/media/image-filter-app-demo_AdobeExpress-2.590e8072300943bd6e0a.gif",
     "static/media/3danatomy-3.gif": "./static/media/3danatomy-3.5d448410017f33334443.gif",
     "static/media/3danatomy-2.gif": "./static/media/3danatomy-2.8f520b21fd4e1803fdbc.gif",
@@ -40,10 +40,10 @@
     "static/media/filter-nobkg.jpg": "./static/media/filter-nobkg.4c8a0fa1c6ba3abcc121.jpg",
     "index.html": "./index.html",
     "main.d6c02109.css.map": "./static/css/main.d6c02109.css.map",
-    "main.06bf699d.js.map": "./static/js/main.06bf699d.js.map"
+    "main.07ca1dbf.js.map": "./static/js/main.07ca1dbf.js.map"
   },
   "entrypoints": [
     "static/css/main.d6c02109.css",
-    "static/js/main.06bf699d.js"
+    "static/js/main.07ca1dbf.js"
   ]
 }

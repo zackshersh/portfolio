@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {
     BrowserRouter,
+    HashRouter
     Routes,
     Route,
 } from "react-router-dom";
@@ -12,11 +13,11 @@ import Title from './Components/Title';
 import WorkPage from './Components/WorkPage';
 
 
-ReactDOM.render( <BrowserRouter>
+ReactDOM.render( <HashRouter basename={process.env.PUBLIC_URL}>
     <Routes>
-        <Route path='/' element={<Title />}></Route>
+        <Route exact path='/' element={<Title />}></Route>
         <Route path='/featured-work' element={<MainWorkPage />}></Route>
         <Route path='/all-work' element={<WorkPage />}></Route>
     </Routes>
-</BrowserRouter>, document.getElementById('root'));
+</HashRouter>, document.getElementById('root'));
 

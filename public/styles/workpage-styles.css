@@ -19,7 +19,7 @@
 
 .Work-Wrapper {
     width: 100%;
-    max-width: 780px;
+    max-width: 1000px;
     height: 100%;
     padding: 18px;
     /* display: flex; */
@@ -147,7 +147,7 @@
 }
 
 .Content-Wrapper {
-    max-width: 650px;
+    max-width: 1000px;
     width: 100%;
     overflow: scroll;
     overscroll-behavior: none;
@@ -176,7 +176,7 @@
 
 .Content-Wrapper > p {
     margin-bottom: 16px;
-    max-width: 400px;
+    max-width: 640px;
 }
 
 .Content-Wrapper > i {
@@ -185,7 +185,13 @@
 }
 
 .Content-Wrapper > img {
-    width: 100%;
+    width: auto;
+    height: auto;
+    max-height: 60vh;
+    max-width: 100%;
+    display: block;
+    margin-top: 12px;
+
 }
 
 .Content-Wrapper > .Video-Container {

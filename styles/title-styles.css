@@ -39,8 +39,8 @@
     display: block;
 }
 
-.Title-Wrapper > button {
-    margin-top: 24px;
+.Work-Button {
+    margin-top: 16px;
     border: 1px solid var(--main);
     background-color: var(--light);
     color: var(--main);
@@ -48,10 +48,11 @@
     cursor: pointer;
 }
 
-.Title-Wrapper > button:hover {
+.Work-Button:hover {
     background-color: var(--main);
     color: var(--light);
 }
+
 
 .Main-Title {
     display: block;

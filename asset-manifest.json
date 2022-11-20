@@ -1,10 +1,49 @@
 {
   "files": {
-    "main.js": "/temporary-portfolio/static/js/main.9fee5e4f.js",
+    "main.css": "/temporary-portfolio/static/css/main.1a515d38.css",
+    "main.js": "/temporary-portfolio/static/js/main.4a6a47bf.js",
+    "static/media/image-filter-app-demo_AdobeExpress-2.gif": "/temporary-portfolio/static/media/image-filter-app-demo_AdobeExpress-2.590e8072300943bd6e0a.gif",
+    "static/media/3danatomy-3.gif": "/temporary-portfolio/static/media/3danatomy-3.5d448410017f33334443.gif",
+    "static/media/3danatomy-2.gif": "/temporary-portfolio/static/media/3danatomy-2.8f520b21fd4e1803fdbc.gif",
+    "static/media/3danatomy-1.gif": "/temporary-portfolio/static/media/3danatomy-1.e8488983125400d1d168.gif",
+    "static/media/haggadah-1.gif": "/temporary-portfolio/static/media/haggadah-1.b5f2487161eea27be2d8.gif",
+    "static/media/fieldofdreams-demo.gif": "/temporary-portfolio/static/media/fieldofdreams-demo.9214dd9a4012b98ec9b3.gif",
+    "static/media/jfk-pixel.png": "/temporary-portfolio/static/media/jfk-pixel.8d3299054ff249e8bc87.png",
+    "static/media/filter-screenshot.png": "/temporary-portfolio/static/media/filter-screenshot.f7077ec9728b052c74c8.png",
+    "static/media/haggadah-2.gif": "/temporary-portfolio/static/media/haggadah-2.af3444d47c87eaf59d49.gif",
+    "static/media/jfk-wave.png": "/temporary-portfolio/static/media/jfk-wave.51a745c13be97021e742.png",
+    "static/media/hand-normal.png": "/temporary-portfolio/static/media/hand-normal.1c418c315a4b49fdc67d.png",
+    "static/media/haggadah-3.gif": "/temporary-portfolio/static/media/haggadah-3.b845a411bbe8a6e2cf1e.gif",
+    "static/media/technohaggadah-screenshot.png": "/temporary-portfolio/static/media/technohaggadah-screenshot.5430eb07b4b9d138faea.png",
+    "static/media/tinytown-screenshot2.png": "/temporary-portfolio/static/media/tinytown-screenshot2.7b303608a0a0ea036024.png",
+    "static/media/thefield.jpg": "/temporary-portfolio/static/media/thefield.5c771e1840bbbf788c9a.jpg",
+    "static/media/tiny-town.jpg": "/temporary-portfolio/static/media/tiny-town.8e789d7b37e75652580d.jpg",
+    "static/media/climate-map.svg": "/temporary-portfolio/static/media/climate-map.708c57e290414c1b2816.svg",
+    "static/media/tinytown-recording.gif": "/temporary-portfolio/static/media/tinytown-recording.dcaad3cd44cf214bb458.gif",
+    "static/media/tinytown-screenshot1.png": "/temporary-portfolio/static/media/tinytown-screenshot1.357b4b27a7df5dc9f288.png",
+    "static/media/fieldofdreams-flowers.png": "/temporary-portfolio/static/media/fieldofdreams-flowers.421c36e4cb9e8c2fd696.png",
+    "static/media/climate-map-demo.jpg": "/temporary-portfolio/static/media/climate-map-demo.6bb9b36fd6b820125ae1.jpg",
+    "static/media/field-of-dreams-1.jpg": "/temporary-portfolio/static/media/field-of-dreams-1.2965b78525315127a0de.jpg",
+    "static/media/fieldofdreams-flowers.svg": "/temporary-portfolio/static/media/fieldofdreams-flowers.21d927640d211f600bfa.svg",
+    "static/media/3danatomy-duck.jpg": "/temporary-portfolio/static/media/3danatomy-duck.c4cab6aef54b6eeda633.jpg",
+    "static/media/climate-scatter.jpg": "/temporary-portfolio/static/media/climate-scatter.8847e60b5fcc5df93977.jpg",
+    "static/media/field-of-dreams-4.jpg": "/temporary-portfolio/static/media/field-of-dreams-4.a340d6be167482f8a863.jpg",
+    "static/media/jfk-bit.png": "/temporary-portfolio/static/media/jfk-bit.bd0a1f8e6522c6231664.png",
+    "static/media/climate-earth.jpg": "/temporary-portfolio/static/media/climate-earth.f592b8d113f80586182b.jpg",
+    "static/media/tiny-town-nobkg.jpg": "/temporary-portfolio/static/media/tiny-town-nobkg.8662326c45f4e2095b9d.jpg",
+    "static/media/hand-normal-mask.png": "/temporary-portfolio/static/media/hand-normal-mask.58b5ff78bf79022144f5.png",
+    "static/media/flowerbunch.jpg": "/temporary-portfolio/static/media/flowerbunch.d9561e8a2054320b09f9.jpg",
+    "static/media/technohaggadah-nobkg.jpg": "/temporary-portfolio/static/media/technohaggadah-nobkg.2e4ad48703c29d5625e6.jpg",
+    "static/media/all-work-thumbnail.jpg": "/temporary-portfolio/static/media/all-work-thumbnail.7b4e8353ae5eb1a6073d.jpg",
+    "static/media/zack.jpg": "/temporary-portfolio/static/media/zack.b5069f0fe53f96d37345.jpg",
+    "static/media/mallard.jpg": "/temporary-portfolio/static/media/mallard.64013a7f8779017def4a.jpg",
+    "static/media/filter-nobkg.jpg": "/temporary-portfolio/static/media/filter-nobkg.4c8a0fa1c6ba3abcc121.jpg",
     "index.html": "/temporary-portfolio/index.html",
-    "main.9fee5e4f.js.map": "/temporary-portfolio/static/js/main.9fee5e4f.js.map"
+    "main.1a515d38.css.map": "/temporary-portfolio/static/css/main.1a515d38.css.map",
+    "main.4a6a47bf.js.map": "/temporary-portfolio/static/js/main.4a6a47bf.js.map"
   },
   "entrypoints": [
-    "static/js/main.9fee5e4f.js"
+    "static/css/main.1a515d38.css",
+    "static/js/main.4a6a47bf.js"
   ]
 }

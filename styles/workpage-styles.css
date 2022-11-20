@@ -11,6 +11,12 @@
     /* filter: grayscale(1); */
 }
 
+/* .Work-Page > .Header {
+    padding: 24px 0px 0px 0px;
+    width: 100%;
+    max-width: 780px;
+} */
+
 .Work-Wrapper {
     width: 100%;
     max-width: 780px;

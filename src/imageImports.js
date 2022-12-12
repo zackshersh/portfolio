@@ -1,6 +1,6 @@
 import jfk1 from "./assets/images/jfk-bit.png"
 import jfk2 from "./assets/images/jfk-pixel.png"
-import jfk3 from "./assets/images/jfk-wave.png"
+import jfk3 from "./assets/images/jfk-wave.jpg"
 import filterGIF from "./assets/images/image-filter-app-demo_AdobeExpress-2.gif";
 
 import tinyGif from "./assets/images/tinytown-recording.gif";

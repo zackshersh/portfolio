@@ -101,11 +101,18 @@
 
 /* BODY TEXT */
 .Grid-Body-Text {
+    margin: 18px 0;
+    width: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     color: var(--main);
     /* max-width: 800px; */
     /* height: 100% */
+}
+
+.Grid-Body-Text p {
+    max-width: 640px;
 }
 
 

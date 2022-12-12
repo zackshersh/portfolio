@@ -9,7 +9,8 @@
 
 .Header-Wrapper {
     width: 100%;
-    max-width: 780px;
+    /* max-width: calc(100vw-(100vw/8)); */
+    max-width: calc((100vw/8)*7);
     padding: 18px;
     padding-bottom: 0;
 }

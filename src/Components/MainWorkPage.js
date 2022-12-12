@@ -352,7 +352,7 @@ function MainWorkPage(props) {
                         <__Spacer__></__Spacer__>
                         <__Spacer__></__Spacer__>
                         <GBodyList title={"Skills"} 
-                        items={["React.js","MySQL and MongoDB","Express.js","Test driven development with Jest","Three.js","D3.js", "Adobe Photoshop and Illustrator"]}>
+                        items={["React.js","MySQL and MongoDB","Express.js","Test driven development with Jest","Three.js","D3.js", "Adobe Photoshop and Illustrator", "Blender"]}>
                         </GBodyList>
                     </GridWrapper>
 

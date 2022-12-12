@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e37f6ed8.css",
-    "main.js": "/portfolio/static/js/main.5b8b4bfd.js",
+    "main.js": "/portfolio/static/js/main.93146a62.js",
     "static/media/image-filter-app-demo_AdobeExpress-2.gif": "/portfolio/static/media/image-filter-app-demo_AdobeExpress-2.590e8072300943bd6e0a.gif",
     "static/media/3danatomy-3.gif": "/portfolio/static/media/3danatomy-3.5d448410017f33334443.gif",
     "static/media/3danatomy-2.gif": "/portfolio/static/media/3danatomy-2.8f520b21fd4e1803fdbc.gif",
@@ -11,7 +11,6 @@
     "static/media/jfk-pixel.png": "/portfolio/static/media/jfk-pixel.8d3299054ff249e8bc87.png",
     "static/media/filter-screenshot.png": "/portfolio/static/media/filter-screenshot.f7077ec9728b052c74c8.png",
     "static/media/haggadah-2.gif": "/portfolio/static/media/haggadah-2.af3444d47c87eaf59d49.gif",
-    "static/media/jfk-wave.png": "/portfolio/static/media/jfk-wave.51a745c13be97021e742.png",
     "static/media/hand-normal.png": "/portfolio/static/media/hand-normal.1c418c315a4b49fdc67d.png",
     "static/media/haggadah-3.gif": "/portfolio/static/media/haggadah-3.b845a411bbe8a6e2cf1e.gif",
     "static/media/technohaggadah-screenshot.png": "/portfolio/static/media/technohaggadah-screenshot.5430eb07b4b9d138faea.png",
@@ -24,6 +23,7 @@
     "static/media/fieldofdreams-flowers.png": "/portfolio/static/media/fieldofdreams-flowers.421c36e4cb9e8c2fd696.png",
     "static/media/climate-map-demo.jpg": "/portfolio/static/media/climate-map-demo.6bb9b36fd6b820125ae1.jpg",
     "static/media/field-of-dreams-1.jpg": "/portfolio/static/media/field-of-dreams-1.2965b78525315127a0de.jpg",
+    "static/media/jfk-wave.jpg": "/portfolio/static/media/jfk-wave.f338d86f6e5e95681ea5.jpg",
     "static/media/fieldofdreams-flowers.svg": "/portfolio/static/media/fieldofdreams-flowers.21d927640d211f600bfa.svg",
     "static/media/3danatomy-duck.jpg": "/portfolio/static/media/3danatomy-duck.c4cab6aef54b6eeda633.jpg",
     "static/media/climate-scatter.jpg": "/portfolio/static/media/climate-scatter.8847e60b5fcc5df93977.jpg",
@@ -40,10 +40,10 @@
     "static/media/filter-nobkg.jpg": "/portfolio/static/media/filter-nobkg.4c8a0fa1c6ba3abcc121.jpg",
     "index.html": "/portfolio/index.html",
     "main.e37f6ed8.css.map": "/portfolio/static/css/main.e37f6ed8.css.map",
-    "main.5b8b4bfd.js.map": "/portfolio/static/js/main.5b8b4bfd.js.map"
+    "main.93146a62.js.map": "/portfolio/static/js/main.93146a62.js.map"
   },
   "entrypoints": [
     "static/css/main.e37f6ed8.css",
-    "static/js/main.5b8b4bfd.js"
+    "static/js/main.93146a62.js"
   ]
 }

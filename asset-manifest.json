@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.82ecdb5b.css",
-    "main.js": "/portfolio/static/js/main.28bc61ea.js",
+    "main.css": "/portfolio/static/css/main.e37f6ed8.css",
+    "main.js": "/portfolio/static/js/main.5b8b4bfd.js",
     "static/media/image-filter-app-demo_AdobeExpress-2.gif": "/portfolio/static/media/image-filter-app-demo_AdobeExpress-2.590e8072300943bd6e0a.gif",
     "static/media/3danatomy-3.gif": "/portfolio/static/media/3danatomy-3.5d448410017f33334443.gif",
     "static/media/3danatomy-2.gif": "/portfolio/static/media/3danatomy-2.8f520b21fd4e1803fdbc.gif",
@@ -39,11 +39,11 @@
     "static/media/mallard.jpg": "/portfolio/static/media/mallard.64013a7f8779017def4a.jpg",
     "static/media/filter-nobkg.jpg": "/portfolio/static/media/filter-nobkg.4c8a0fa1c6ba3abcc121.jpg",
     "index.html": "/portfolio/index.html",
-    "main.82ecdb5b.css.map": "/portfolio/static/css/main.82ecdb5b.css.map",
-    "main.28bc61ea.js.map": "/portfolio/static/js/main.28bc61ea.js.map"
+    "main.e37f6ed8.css.map": "/portfolio/static/css/main.e37f6ed8.css.map",
+    "main.5b8b4bfd.js.map": "/portfolio/static/js/main.5b8b4bfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.82ecdb5b.css",
-    "static/js/main.28bc61ea.js"
+    "static/css/main.e37f6ed8.css",
+    "static/js/main.5b8b4bfd.js"
   ]
 }

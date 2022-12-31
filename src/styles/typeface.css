@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: "NeueMontreal";
+    src: url("../assets/fonts/PPNeueMontreal-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "NeueMontreal";
+    src: url("../assets/fonts/PPNeueMontreal-Italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "NeueMontreal";
+    src: url("../assets/fonts/PPNeueMontreal-Medium.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Trailers";
+    src: url("../assets/fonts/TT\ Trailers\ Trial\ Black.ttf");
+}
+/* @font-face {
+    font-family: "NeueMontreal";
+    src: url("../assets/fonts/PPNeueMontreal-Bold.otf") format("opentype");
+    font-weight: bolder;
+    font-style: normal;
+} */
+/* @font-face {
+    font-family: "NeueMontreal";
+    src: url("../assets/fonts/PPNeueMontreal-BoldItalic.otf") format("opentype");
+    font-weight: bolder;
+    font-style: italic;
+} */
+
+* {
+    font-family: "NeueMontreal"
+}
+
+p {
+    font-weight: bold;
+}
+

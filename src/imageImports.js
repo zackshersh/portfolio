@@ -1,6 +1,6 @@
-import jfk1 from "./assets/images/jfk-bit.png"
-import jfk2 from "./assets/images/jfk-pixel.png"
-import jfk3 from "./assets/images/jfk-wave.jpg"
+import jfk1 from "./assets/images/jfk-bit.png";
+import jfk2 from "./assets/images/jfk-pixel.png";
+import jfk3 from "./assets/images/jfk-wave.jpg";
 import filterGIF from "./assets/images/image-filter-app-demo_AdobeExpress-2.gif";
 
 import tinyGif from "./assets/images/tinytown-recording.gif";
@@ -10,19 +10,23 @@ import tinyImg2 from "./assets/images/tinytown-screenshot2.png";
 
 import flowers from "./assets/images/fieldofdreams-flowers.png";
 import fieldGif from "./assets/images/fieldofdreams-demo.gif";
-import field1 from "./assets/images/field-of-dreams-1.jpg"
-import field2 from "./assets/images/field-of-dreams-4.jpg"
+import field1 from "./assets/images/field-of-dreams-1.jpg";
+import field2 from "./assets/images/field-of-dreams-4.jpg";
 
-import techno1 from "./assets/images/haggadah-1.gif"
-import techno2 from "./assets/images/haggadah-2.gif"
-import techno3 from "./assets/images/haggadah-3.gif"
+import techno1 from "./assets/images/haggadah-1.gif";
+import techno2 from "./assets/images/haggadah-2.gif";
+import techno3 from "./assets/images/haggadah-3.gif";
 
 import anatomy1 from "./assets/images/3danatomy-1.gif";
 import anatomy2 from "./assets/images/3danatomy-2.gif";
 import anatomy3 from "./assets/images/3danatomy-3.gif";
 
-import climate1 from "./assets/images/climate-map-demo.jpg"
-import climate2 from "./assets/images/climate-scatter.jpg"
+import climate1 from "./assets/images/climate-map-demo.jpg";
+import climate2 from "./assets/images/climate-scatter.jpg";
+
+import bhs1 from "./assets/images/bhs-home.jpg";
+import bhs2 from "./assets/images/bhs-services.jpg";
+import bhs3 from "./assets/images/bhs-form.jpg";
 
 export const filterImgs = {
     jfk1: jfk1,
@@ -59,4 +63,10 @@ export const anatomyImgs = {
 export const climateImgs = {
     img1: climate1,
     img2: climate2
+}
+
+export const bhsImgs = {
+    img1: bhs1,
+    img2: bhs2,
+    img3: bhs3
 }

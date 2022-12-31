@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Link, Navigate } from 'react-router-dom';
-import { setCSSMain } from '../utils';
+import { setCSSMain, setCSSSecondary } from '../utils';
 
 import standard from "../standardValues.json"
 
-function MainPageItem({img, grid, smallGrid, title, darker, lighter, to, activeItem, setActiveItem, color, isSmall, customFilter, emphasis, remainFor = [], pT,pB,pL,pR}) {
+function MainPageItem({img, grid, smallGrid, title, darker, lighter, to, activeItem, setActiveItem, color, secColor, isSmall, customFilter, emphasis, remainFor = [], pT,pB,pL,pR}) {
 
     const [redirecting, setRedirecting] = useState(false);
 
@@ -47,12 +47,13 @@ function MainPageItem({img, grid, smallGrid, title, darker, lighter, to, activeI
 
         if(activeItem == "all" || remainFor.indexOf(activeItem) != -1){
             setActiveItem(title);
-            setCSSMain(color ? color : "black");
+            setCSSMain(color ? color : "black")
+            setCSSSecondary(secColor ? secColor : "rgb(50,50,50)");
         } else {
             if(active){
                 setActiveItem("all");
                 setCSSMain(standard.main)
-
+                setCSSSecondary(standard.secondary)
             }
         }
         

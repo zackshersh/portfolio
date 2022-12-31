@@ -1,6 +1,6 @@
 import React from 'react';
 
-function GdTitle({children,alignR, small, xSmall, alignRSmall, isSmall,alignBottom}) {
+function GdTitle({children,alignR, small, xSmall, alignRSmall, isSmall,alignBottom, textWhenSmall}) {
 
     let align;
     if(alignR){
@@ -25,7 +25,8 @@ function GdTitle({children,alignR, small, xSmall, alignRSmall, isSmall,alignBott
 
     return (
         <div style={contStyles} className={`Grid-Title ${smallClass}`}>
-            <h1 style={h1Styles}>{children}</h1>
+            <h1 style={h1Styles}>{ isSmall && textWhenSmall ? textWhenSmall :
+            children}</h1>
         </div>
     );
 }

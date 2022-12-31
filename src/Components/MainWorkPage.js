@@ -18,6 +18,7 @@ import zackImg from "../assets/images/zack.jpg"
 import contactImg from "../assets/images/phone.jpg"
 import anatomyImg from "../assets/images/mallard.jpg"
 import climateImg from "../assets/images/climate-earth.jpg"
+import bhsImg from "../assets/images/bhs-brain.jpg"
 
 
 import GridWrapper from './GridWrapper';
@@ -30,7 +31,7 @@ import __Spacer__ from './__Spacer__';
 import standard from "../standardValues.json"
 
 
-import { filterImgs, tinyImgs, fieldImgs, technoImgs, anatomyImgs, climateImgs } from '../imageImports';
+import { filterImgs, tinyImgs, fieldImgs, technoImgs, anatomyImgs, climateImgs, bhsImgs } from '../imageImports';
 
 import Cursor from './Cursor';
 import GBkgImg from './GBkgImg';
@@ -58,14 +59,52 @@ function MainWorkPage(props) {
             <main className='Grid-Cont'>
                 <Header activeItem={activeItem} setActiveItem={setActiveItem}/>
 
-
-                <MainPageItem img={filterImg} grid={"2/3-3/4"} isSmall={isSmallLayout} smallGrid={"1/3-2/4"}
-                title="Image Filter Thingy"
-                activeItem={activeItem} setActiveItem={setActiveItem} color={"#3964ff"} customFilter={"brightness(1.1) contrast(1.5)"}/>
-                    <GridWrapper g={"3/6-3/4"} sG={"3/6-2/4"} aI={activeItem} p="Image Filter Thingy" s={isSmallLayout}>
-                        <GdTitle>Image Filter Thingy</GdTitle>
+                <MainPageItem img={bhsImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Behavioral Health Solutions"} color={"#2A3158"}grid={"2/3-3/4"} smallGrid={"1/3-2/4"} isSmall={isSmallLayout} customFilter={"brightness(1) contrast(1.6)"}></MainPageItem>
+                    <GridWrapper aI={activeItem} p="Behavioral Health Solutions" g={"3/6-3/4"} sG={"3/6-2/4"} s={isSmallLayout}>
+                            <GdTitle  small textWhenSmall={"Behavioral Health Solutions"} isSmall={isSmallLayout}>Behavioral Health Solutions</GdTitle>
                     </GridWrapper>
-                    <GridWrapper g={"6/9-2/16"} aI={activeItem} p="Image Filter Thingy" pR>
+                    <GridWrapper aI={activeItem} p="Behavioral Health Solutions"  g={"6/9-2/16"} sG={"1/5-4/5"} s={isSmallLayout}>
+                        <GBkgImg bkg={"bhs"} vertical></GBkgImg>
+                    </GridWrapper>
+                    <GridWrapper aI={activeItem} p="Behavioral Health Solutions" g={"1/6-4/5"} sG={"1/6-4/5"} pT pR pL s={isSmallLayout}>
+                        <GBasicInfo date={"Nov. 2022"} link={"https://zackshersh.github.io/bhs-website/"} tempLink></GBasicInfo>
+                        <__Spacer__/>
+                        <hr />
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <div className='Grid-Image-Container'>
+                            <img loading="lazy" src={bhsImgs.img1}></img>
+                            <img loading="lazy" src={bhsImgs.img2}></img>
+                        </div>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <GBodyText>
+                            Beginning in July 2022 I began working with a private psychology practice called Behavioral Health Solutions from Durham, NC to design a new website. Behavioral Health Solutions consists of several therapists, covering a wide range of emotional, behavioral and interpersonal issues. As such, the website needed to be able to clearly communicate the practice's team and its variety of specializations. 
+                        </GBodyText>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <div className='Grid-Image-Container'>
+                            <img loading="lazy" src={bhsImgs.img3}></img>
+                        </div>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <GBodyText>
+                            One feature I developed for the website is a form that allows potential clients to complete the initial intake process online. Prior to this system, potential clients would often need to call the office multiple times to complete the process which is done easily with this form. This was particularly important for Behavioral Health Solutions as a practice, as one of their largest specializations is with individuals with problematic sexual behaviors. While the administrative staff try to make the over-the-phone process as easy as possible, the shame involved in outright stating their reason for seeking help to a stranger has made the process much more painful for court-ordered cases and has put off voluntary admissions from seeking help in the first place.
+                        </GBodyText>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                    </GridWrapper>
+
+                <MainPageItem img={filterImg} grid={"3/4-3/4"} isSmall={isSmallLayout} smallGrid={"3/5-2/4"}
+                title="Image Filter Thingy"
+                activeItem={activeItem} setActiveItem={setActiveItem} color={"#3964ff"} secColor={"#3f9643"}customFilter={"brightness(1.1) contrast(1.5)"}/>
+                    <GridWrapper g={"1/3-3/4"} sG={"1/3-2/4"} aI={activeItem} p="Image Filter Thingy" s={isSmallLayout}>
+                        <GdTitle alignR isSmall={isSmallLayout}>Image</GdTitle>
+                    </GridWrapper>
+                    <GridWrapper g={"4/9-3/4"} sG={"5/9-2/4"} aI={activeItem} p="Image Filter Thingy" s={isSmallLayout}>
+                        <GdTitle isSmall={isSmallLayout}>Filter Thingy</GdTitle>
+                    </GridWrapper>
+                    <GridWrapper g={"6/9-4/16"} aI={activeItem} p="Image Filter Thingy" pR>
                         <GBkgImg vertical bkg="filter"></GBkgImg>
                     </GridWrapper>
 
@@ -105,44 +144,6 @@ function MainWorkPage(props) {
                     </GBodyText>
                 </GridWrapper> */}
 
-                
-                <MainPageItem img={haggadahImg} grid={"3/4-3/4"} smallGrid={"3/5-2/4"} isSmall={isSmallLayout} title="The Techno-Haggadah"
-                activeItem={activeItem} setActiveItem={setActiveItem} customFilter={"brightness(1) contrast(1.5)"}/>
-                    <GridWrapper g={"1/3-3/4"} sG={"1/3-2/4"} aI={activeItem} p="The Techno-Haggadah" s={isSmallLayout}>
-                        <GdTitle alignR>The</GdTitle>
-                    </GridWrapper>
-                    <GridWrapper g={"4/9-3/4"} sG={"5/9-2/4"} aI={activeItem} p="The Techno-Haggadah" s={isSmallLayout}>
-                        <GdTitle>Techno-Haggadah</GdTitle>
-                    </GridWrapper>
-                    <GridWrapper g={"6/9-4/12"} aI={activeItem} p="The Techno-Haggadah" pL>
-                        <GBkgImg bkg="haggadah" vertical />
-                    </GridWrapper>
-                    <GridWrapper g={"1/6-4/9"} aI={activeItem} p="The Techno-Haggadah" pR pL>
-                        <GBasicInfo date={"May, 2022"} link={"https://zackshersh.github.io/techno-haggadah/"} repo={"https://github.com/zackshersh/techno-haggadah"}/>
-                        <__Spacer__/>
-                        <hr></hr>
-                        <__Spacer__/>
-                        <__Spacer__/>
-                        <GBodyText>
-                            I created the <i>Techno-Haggadah</i> as part of a project for a Jewish Folklore and Ethnography course I took at UNC in the Spring of 2022. A Haggadah is a document used in the Jewish holiday of Passover. The "main event" of the Holiday is the seder, which is a meal consisting of a number of songs, prayers and rituals. These are all held in the Haggadah, which is read from throughout the meal.
-                        </GBodyText>
-                        <__Spacer__/>
-                        <GBodyText>
-                            The <i>Techno-Haggadah</i> is a somewhat humorous website that allows users to build their own digital Haggadah with a number of preset prayers, songs, images, and drawings. It has several example pages hard-coded, but provides a GUI allowing for easy creation of many more.
-                        </GBodyText>
-                        <__Spacer__/>
-                        <div className="Grid-Image-Container">
-                            <img style={{border: "1px solid var(--main)"}} loading="lazy" src={technoImgs.img2}></img>
-                            <img style={{border: "1px solid var(--main)"}} loading="lazy" src={technoImgs.img1}></img>
-                            <img style={{border: "1px solid var(--main)"}} loading="lazy" src={technoImgs.img3}></img>
-                        </div>
-                        <__Spacer__/>
-                        <__Spacer__/>
-                        <__Spacer__/>
-                        <__Spacer__/>
-                        <__Spacer__/>
-                        <__Spacer__/>
-                    </GridWrapper>
 
 
                 <MainPageItem img={townImg} grid={"4/5-3/4"} smallGrid={"5/7-2/4"} title="Tiny Town" isSmall={isSmallLayout}
@@ -317,8 +318,46 @@ function MainWorkPage(props) {
                         <__Spacer__/>
                         <__Spacer__/>
                     </GridWrapper>
-                    
 
+
+                    
+                <MainPageItem img={haggadahImg} grid={"4/5-4/5"} smallGrid={"5/7-4/5"} isSmall={isSmallLayout} title="The Techno-Haggadah"
+                activeItem={activeItem} setActiveItem={setActiveItem} customFilter={"brightness(1) contrast(1.5)"}/>
+                    <GridWrapper g={"1/4-4/5"} sG={"1/5-4/5"} aI={activeItem} p="The Techno-Haggadah" s={isSmallLayout}>
+                        <GdTitle alignR textWhenSmall={"The Techno-Haggadah"} small isSmall={isSmallLayout}>The</GdTitle>
+                    </GridWrapper>
+                    <GridWrapper g={"5/9-4/5"} sG={"5/9-2/4"} aI={activeItem} p="The Techno-Haggadah" s={isSmallLayout}>
+                        <GdTitle small>Techno-Haggadah</GdTitle>
+                    </GridWrapper>
+                    <GridWrapper g={"1/9-2/4"} aI={activeItem} p="The Techno-Haggadah">
+                        <GBkgImg bkg="haggadah"/>
+                    </GridWrapper>
+                    <GridWrapper g={"1/9-5/9"} aI={activeItem} p="The Techno-Haggadah" pR pL>
+                        <GBasicInfo date={"May, 2022"} link={"https://zackshersh.github.io/techno-haggadah/"} repo={"https://github.com/zackshersh/techno-haggadah"}/>
+                        <__Spacer__/>
+                        <hr></hr>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <GBodyText>
+                            I created the <i>Techno-Haggadah</i> as part of a project for a Jewish Folklore and Ethnography course I took at UNC in the Spring of 2022. A Haggadah is a document used in the Jewish holiday of Passover. The "main event" of the Holiday is the seder, which is a meal consisting of a number of songs, prayers and rituals. These are all held in the Haggadah, which is read from throughout the meal.
+                        </GBodyText>
+                        <__Spacer__/>
+                        <div className="Grid-Image-Container">
+                            <img style={{border: "1px solid var(--main)"}} loading="lazy" src={technoImgs.img2}></img>
+                            <img style={{border: "1px solid var(--main)"}} loading="lazy" src={technoImgs.img1}></img>
+                            <img style={{border: "1px solid var(--main)"}} loading="lazy" src={technoImgs.img3}></img>
+                        </div>
+                        <__Spacer__/>
+                        <GBodyText>
+                            The <i>Techno-Haggadah</i> is a somewhat humorous website that allows users to build their own digital Haggadah with a number of preset prayers, songs, images, and drawings. It has several example pages hard-coded, but provides a GUI allowing for easy creation of many more.
+                        </GBodyText>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                        <__Spacer__/>
+                    </GridWrapper>
 
                 {/* --------------------------------------------------- */}
 
@@ -327,26 +366,25 @@ function MainWorkPage(props) {
                 <MainPageItem img={allImg} grid={"7/8-3/4"} smallGrid={"1/3-6/7"} isSmall={isSmallLayout} title={"Creative Work"} activeItem={activeItem} setActiveItem={setActiveItem} to={"all-work"} color={standard.main} customFilter={"brightness(1.1) contrast(1.3)"} emphasis></MainPageItem>
 
 
-
                 <MainPageItem img={zackImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"About Me"} color={"#ff5500"} grid={"7/8-4/5"} smallGrid={"3/5-6/7"} isSmall={isSmallLayout} customFilter={"brightness(1.8) contrast(1.3)"} emphasis></MainPageItem>
                     <GridWrapper aI={activeItem} p="About Me" g={"3/7-3/4"} sG={"3/7-2/3"} s={isSmallLayout} pT>
                         <GdTitle alignR>About Me</GdTitle>
                     </GridWrapper>
                     <GridWrapper aI={activeItem} p="About Me" g={"2/7-4/8"} sG={"1/9-3/6"} s={isSmallLayout} scroll mR pL pT>
                         <__Spacer__></__Spacer__>
-                        <GBodyText>
+                        <GBodyText smallMargin>
                             As a web developer, I find myself drawn to interesting visual design and creating unique and creative experiences.
                         </GBodyText>
                         <__Spacer__></__Spacer__>
-                        <GBodyText>
+                        <GBodyText smallMargin>
                             I have been interested in frontend web development since I took an intro to web development class at UNC in 2019. Web development and programming felt like another way to explore my love of design and making "cool stuff", which I had previously explored through graphic design and photography.
                         </GBodyText>
                         <__Spacer__></__Spacer__>
-                        <GBodyText>
+                        <GBodyText smallMargin>
                             In the Spring of 2021 I took a semester off of school to further explore my interest in programming. I enrolled in a 24 week fullstack coding bootcamp through UNC, where I learned aspects of web development from ReactJS on the frontend to server routing and database operation on the backend <i>(See Tiny Town and Field of Dreams)</i>.
                         </GBodyText>
                         <__Spacer__></__Spacer__>
-                        <GBodyText>
+                        <GBodyText smallMargin>
                             Since then I have continued to explore web development through classes at UNC and personally motivated projects.
                         </GBodyText>
                         <__Spacer__></__Spacer__>

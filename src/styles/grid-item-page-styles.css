@@ -57,8 +57,8 @@
 }
 
 .Grid-Title > h1 {
-    font-family: Arial;
-    font-weight: 500;
+    font-family: "NeueMontreal";
+    font-weight: bold;
     color: var(--main);
     font-size: 48px;
     text-transform: uppercase;
@@ -93,6 +93,14 @@
     color: var(--main);
     z-index: 4;
     position: relative;
+}
+
+.Grid-Basic-Info i {
+    margin-bottom: 6px;
+}
+
+.Grid-Basic-Info p {
+    margin-bottom: 4px;
 }
 
 .Grid-Basic-Info > .Source-Link {
@@ -200,7 +208,10 @@
 
 .bkg-climate {
     background-image: url(../assets/images/climate-map.svg);
+}
 
+.bkg-bhs {
+    background-image: url(../assets/images/bhs-front.jpg);
 }
 
 

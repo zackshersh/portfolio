@@ -59,7 +59,7 @@ function MainWorkPage(props) {
             <main className='Grid-Cont'>
                 <Header activeItem={activeItem} setActiveItem={setActiveItem}/>
 
-                <MainPageItem img={bhsImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Behavioral Health Solutions"} color={"#2A3158"}grid={"2/3-3/4"} smallGrid={"1/3-2/4"} isSmall={isSmallLayout} customFilter={"brightness(1) contrast(1.6)"}></MainPageItem>
+                <MainPageItem img={bhsImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Behavioral Health Solutions"} color={"#2A3158"} secColor={"#efaa82"} grid={"2/3-3/4"} smallGrid={"1/3-2/4"} isSmall={isSmallLayout} customFilter={"brightness(1) contrast(1.6)"}></MainPageItem>
                     <GridWrapper aI={activeItem} p="Behavioral Health Solutions" g={"3/6-3/4"} sG={"3/6-2/4"} s={isSmallLayout}>
                             <GdTitle  small textWhenSmall={"Behavioral Health Solutions"} isSmall={isSmallLayout}>Behavioral Health Solutions</GdTitle>
                     </GridWrapper>
@@ -147,7 +147,7 @@ function MainWorkPage(props) {
 
 
                 <MainPageItem img={townImg} grid={"4/5-3/4"} smallGrid={"5/7-2/4"} title="Tiny Town" isSmall={isSmallLayout}
-                activeItem={activeItem} setActiveItem={setActiveItem} color={"#068100"}/>
+                activeItem={activeItem} setActiveItem={setActiveItem} color={"#068100"} secColor={"#adc03d"}/>
                     <GridWrapper g={"5/9-3/4"} sG={"1/5-2/4"} s={isSmallLayout} aI={activeItem} p="Tiny Town">
                         <GdTitle alignRSmall isSmall={isSmallLayout}>Tiny Town</GdTitle>
                     </GridWrapper>
@@ -192,7 +192,7 @@ function MainWorkPage(props) {
 
 
                 <MainPageItem img={fieldImg} grid={"2/3-4/5"} smallGrid={"1/3-4/5"} isSmall={isSmallLayout} customFilter={"brightness(1.3) contrast(1.2)"} title="Field of Dreams"
-                activeItem={activeItem} setActiveItem={setActiveItem} color="rgb(240,21,120)"/>
+                activeItem={activeItem} setActiveItem={setActiveItem} color="rgb(240,21,120)" secColor={"#377d22"}/>
                     <GridWrapper g={"3/9-4/5"} sG={"3/9-4/5"} s={isSmallLayout} aI={activeItem} p="Field of Dreams">
                         <GdTitle>Field of Dreams</GdTitle>
                     </GridWrapper>
@@ -232,7 +232,7 @@ function MainWorkPage(props) {
                     </GridWrapper>
 
                 
-                <MainPageItem img={anatomyImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Anatomy of a 3D Scene"} color={"black"} grid={"5/6-3/4"} smallGrid={"7/9-2/4"} isSmall={isSmallLayout} customFilter={"brightness(0.85) contrast(2)"}></MainPageItem>
+                <MainPageItem img={anatomyImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Anatomy of a 3D Scene"} color={"black"} secColor={"#1b3a2e"} grid={"5/6-3/4"} smallGrid={"7/9-2/4"} isSmall={isSmallLayout} customFilter={"brightness(0.85) contrast(2)"}></MainPageItem>
                     <GridWrapper aI={activeItem} p="Anatomy of a 3D Scene" g={"1/5-3/4"} sG={"3/7-2/4"} s={isSmallLayout}>
                         <GdTitle small alignR>Anatomy of a 3D Scene</GdTitle>
                     </GridWrapper>
@@ -275,7 +275,7 @@ function MainWorkPage(props) {
 
 
                 
-                <MainPageItem img={climateImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Unfair Climate Change"} color={"rgb(77, 102, 125)"} grid={"3/4-4/5"} smallGrid={"3/5-4/5"} isSmall={isSmallLayout} customFilter={"brightness(1) contrast(1.6)"}></MainPageItem>
+                <MainPageItem img={climateImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"Unfair Climate Change"} color={"rgb(77, 102, 125)"} secColor={"#ac6647"} grid={"3/4-4/5"} smallGrid={"3/5-4/5"} isSmall={isSmallLayout} customFilter={"brightness(1) contrast(1.6)"}></MainPageItem>
                     <GridWrapper aI={activeItem} p="Unfair Climate Change" g={"4/8-4/5"} sG={"5/9-4/5"} s={isSmallLayout}>
                         <GdTitle small>The Unfair Reality of Climate Change</GdTitle>
                     </GridWrapper>
@@ -321,7 +321,7 @@ function MainWorkPage(props) {
 
 
                     
-                <MainPageItem img={haggadahImg} grid={"4/5-4/5"} smallGrid={"5/7-4/5"} isSmall={isSmallLayout} title="The Techno-Haggadah"
+                <MainPageItem img={haggadahImg} grid={"4/5-4/5"} smallGrid={"5/7-4/5"} isSmall={isSmallLayout} title="The Techno-Haggadah" secColor={"blue"}
                 activeItem={activeItem} setActiveItem={setActiveItem} customFilter={"brightness(1) contrast(1.5)"}/>
                     <GridWrapper g={"1/4-4/5"} sG={"1/5-4/5"} aI={activeItem} p="The Techno-Haggadah" s={isSmallLayout}>
                         <GdTitle alignR textWhenSmall={"The Techno-Haggadah"} small isSmall={isSmallLayout}>The</GdTitle>
@@ -332,7 +332,7 @@ function MainWorkPage(props) {
                     <GridWrapper g={"1/9-2/4"} aI={activeItem} p="The Techno-Haggadah">
                         <GBkgImg bkg="haggadah"/>
                     </GridWrapper>
-                    <GridWrapper g={"1/9-5/9"} aI={activeItem} p="The Techno-Haggadah" pR pL>
+                    <GridWrapper g={"2/8-5/9"} aI={activeItem} p="The Techno-Haggadah" pR pL>
                         <GBasicInfo date={"May, 2022"} link={"https://zackshersh.github.io/techno-haggadah/"} repo={"https://github.com/zackshersh/techno-haggadah"}/>
                         <__Spacer__/>
                         <hr></hr>
@@ -366,26 +366,22 @@ function MainWorkPage(props) {
                 <MainPageItem img={allImg} grid={"7/8-3/4"} smallGrid={"1/3-6/7"} isSmall={isSmallLayout} title={"Creative Work"} activeItem={activeItem} setActiveItem={setActiveItem} to={"all-work"} color={standard.main} customFilter={"brightness(1.1) contrast(1.3)"} emphasis></MainPageItem>
 
 
-                <MainPageItem img={zackImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"About Me"} color={"#ff5500"} grid={"7/8-4/5"} smallGrid={"3/5-6/7"} isSmall={isSmallLayout} customFilter={"brightness(1.8) contrast(1.3)"} emphasis></MainPageItem>
+                <MainPageItem img={zackImg} activeItem={activeItem} setActiveItem={setActiveItem} title={"About Me"} color={"blue"} secColor={"#dd30ff"} grid={"7/8-4/5"} smallGrid={"3/5-6/7"} isSmall={isSmallLayout} customFilter={"brightness(1.8) contrast(1.3)"} emphasis></MainPageItem>
                     <GridWrapper aI={activeItem} p="About Me" g={"3/7-3/4"} sG={"3/7-2/3"} s={isSmallLayout} pT>
                         <GdTitle alignR>About Me</GdTitle>
                     </GridWrapper>
                     <GridWrapper aI={activeItem} p="About Me" g={"2/7-4/8"} sG={"1/9-3/6"} s={isSmallLayout} scroll mR pL pT>
                         <__Spacer__></__Spacer__>
                         <GBodyText smallMargin>
-                            As a web developer, I find myself drawn to interesting visual design and creating unique and creative experiences.
+                            As a web developer, I create dynamic visual design and unique user experiences. I initially pursued web development, and continued exploring graphic design, at the UNC Hussman School of Media and Journalism.
                         </GBodyText>
                         <__Spacer__></__Spacer__>
                         <GBodyText smallMargin>
-                            I have been interested in frontend web development since I took an intro to web development class at UNC in 2019. Web development and programming felt like another way to explore my love of design and making "cool stuff", which I had previously explored through graphic design and photography.
+                            To further develop my programming skills, I enrolled in the 24 week Coding Bootcamp at UNC where I became a full-stack web developer. I learned aspects of web developmment from ReactJS on the front-end to server routing and database operation on the back-end <i>(see Tiny Town and Field of Dreams)</i>.
                         </GBodyText>
                         <__Spacer__></__Spacer__>
                         <GBodyText smallMargin>
-                            In the Spring of 2021 I took a semester off of school to further explore my interest in programming. I enrolled in a 24 week fullstack coding bootcamp through UNC, where I learned aspects of web development from ReactJS on the frontend to server routing and database operation on the backend <i>(See Tiny Town and Field of Dreams)</i>.
-                        </GBodyText>
-                        <__Spacer__></__Spacer__>
-                        <GBodyText smallMargin>
-                            Since then I have continued to explore web development through classes at UNC and personally motivated projects.
+                            I have become an Innovation Fellow at <a href='https://www.uncbluesky.com'>Blue Sky Innovations for the Spring and Fall of 2023</a>, and continue to center web development and graphic design in my undergraduate courses and creative endeavors.
                         </GBodyText>
                         <__Spacer__></__Spacer__>
                         <__Spacer__></__Spacer__>

@@ -10,7 +10,7 @@
 .Header-Wrapper {
     width: 100%;
     /* max-width: calc(100vw-(100vw/8)); */
-    max-width: calc((100vw/8)*7);
+    max-width: calc((100vw/9)*7);
     padding: 18px;
     padding-bottom: 0;
 }
@@ -21,6 +21,9 @@
     font-size: 14px;
 }
 
+/* .Header:hover {
+    background-color: var(--secondary);
+} */
 
 .Work-Page-Header-Cont {
     display: grid;

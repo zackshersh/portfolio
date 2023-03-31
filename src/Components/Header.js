@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom';
 import "../styles/header-styles.css"
 
 import standard from "../standardValues.json"
-import { setCSSMain } from '../utils';
+import { setCSSMain, setCSSSecondary } from '../utils';
 
 function Header({activeItem, setActiveItem, allWorkPage}) {
 
     const handleBack = () => {
         setActiveItem("all");
         setCSSMain(standard.main);
+        setCSSSecondary(standard.secondary)
     }
 
     return (

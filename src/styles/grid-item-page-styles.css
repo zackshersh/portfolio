@@ -103,6 +103,10 @@
     margin-bottom: 4px;
 }
 
+.Grid-Basic-Info a {
+    text-decoration-color: var(--secondary);
+}
+
 .Grid-Basic-Info > .Source-Link {
     font-size: 13px;
 }
@@ -123,6 +127,9 @@
     max-width: 640px;
 }
 
+.Grid-Body-Text a {
+    font-style: italic;
+}
 
 /* BKG IMG ELEMENT */
 .Grid-Bkg-Img {

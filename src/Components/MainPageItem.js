@@ -31,8 +31,8 @@ function MainPageItem({img, grid, smallGrid, title, darker, lighter, to, activeI
 
     const titleStyles = {
         opacity: active || !remain ? 0 : 1,
-        backgroundColor: emphasis ? "var(--main)":"",
-        color: emphasis ? "white":"var(--main)",
+        // backgroundColor: emphasis ? "var(--main)":"",
+        // color: emphasis ? "white":"var(--main)",
         padding: emphasis ? "2px 4px":"0"
     }
 
@@ -48,7 +48,7 @@ function MainPageItem({img, grid, smallGrid, title, darker, lighter, to, activeI
         if(activeItem == "all" || remainFor.indexOf(activeItem) != -1){
             setActiveItem(title);
             setCSSMain(color ? color : "black")
-            setCSSSecondary(secColor ? secColor : "rgb(50,50,50)");
+            setCSSSecondary(secColor ? secColor : color);
         } else {
             if(active){
                 setActiveItem("all");
@@ -71,7 +71,7 @@ function MainPageItem({img, grid, smallGrid, title, darker, lighter, to, activeI
         <div onMouseDown={handleClick} className={`Main-Page-Item-Cont ${active ? "Active-Item" : ""}`} style={contStyles}>
             <div className='Main-Page-Item'>
                 <img style={imgStyles} className={`${darker?"Darker":""} ${lighter?"Lighter":""}`} src={img}></img>
-                <p style={titleStyles}>{title}</p>
+                <p className={emphasis ? "Main-Item-Title-Emphasis":""} style={titleStyles}>{title}</p>
                 <div className='Color-Overlay'></div>
             </div>
             {decideRedirect()}

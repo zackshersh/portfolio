@@ -76,6 +76,23 @@
     cursor: pointer;
 }
 
+.Main-Page-Item:hover .Color-Overlay {
+    background-color: var(--secondary);
+}
+
+.Main-Page-Item:hover > p {
+    color: var(--secondary);
+}
+
+.Main-Page-Item > .Main-Item-Title-Emphasis {
+    color: white;
+    background-color: var(--main);
+}
+
+.Main-Page-Item:hover > .Main-Item-Title-Emphasis {
+    color: white;
+    background-color: var(--secondary);
+}
 
 .Main-Page-Item > img {
     max-width: 100%;

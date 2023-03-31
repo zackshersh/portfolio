@@ -15,7 +15,7 @@ const Title = ({mode}) => {
     return (
         <div className={`Title${retracted ? " Title-Retracted" : ""}`}>
             <div className="Title-Wrapper">
-                <h3>Hi<InlineImage src={"https://thumbs.gfycat.com/MeatyEnchantingAdder-max-1mb.gif"} />! My name is Zack Hersh<InlineImage src={zackImg} />. I am a fullstack developer<InlineImage src={"https://media2.giphy.com/media/Jk3LfgWzPGhlTBC7Gy/giphy.gif?cid=6c09b952c92a585bbe11dc2aa5a6bf2f8f1aa2c1bdb429b5&rid=giphy.gif&ct=s"}/> and multispecializing in inventive, frontend experiences and design<InlineImage src={"https://media3.giphy.com/media/jt34LHEVIsbs0Qlbi2/giphy.gif"} />.</h3>
+                <h3>Hi<InlineImage src={"https://thumbs.gfycat.com/MeatyEnchantingAdder-max-1mb.gif"} />! My name is Zack Hersh<InlineImage src={zackImg} />. I am a fullstack developer<InlineImage src={"https://media2.giphy.com/media/Jk3LfgWzPGhlTBC7Gy/giphy.gif?cid=6c09b952c92a585bbe11dc2aa5a6bf2f8f1aa2c1bdb429b5&rid=giphy.gif&ct=s"}/>and multidisciplinary digital artist<InlineImage src={"https://i.pinimg.com/originals/9d/9b/d1/9d9bd13afce1a798d22ecfd9897730ed.gif"}/> specializing in inventive, frontend experiences and design<InlineImage src={"https://media3.giphy.com/media/jt34LHEVIsbs0Qlbi2/giphy.gif"} />.</h3>
                 <Link to={"/featured-work"}>
                     <button>Check out my work!</button>
                 </Link>

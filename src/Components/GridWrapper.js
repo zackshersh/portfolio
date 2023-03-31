@@ -6,7 +6,7 @@ function GridWrapper({aI,g,sG,s,children,p,pT,pB,pR,pL,onTop, scroll, pL2, pR2, 
 
 
     const [col,row] = validGrid ? validGrid.split("-") : "";
-    const active = aI== p;
+    const active = aI == p;
 
 
     let display;
@@ -22,7 +22,7 @@ function GridWrapper({aI,g,sG,s,children,p,pT,pB,pR,pL,onTop, scroll, pL2, pR2, 
         gridRow: row,
         gridColumn: col,
         opacity: active ? 1 : 0,
-        display: display,
+        // display: display,
         zindex: active ? onTop ? 5 : 3 : 0,
         position: "relative",
         display: active ? "block" : "none",

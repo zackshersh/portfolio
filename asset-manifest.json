@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.45c45bed.css",
-    "main.js": "/portfolio/static/js/main.7c857e2b.js",
+    "main.css": "/portfolio/static/css/main.161d9028.css",
+    "main.js": "/portfolio/static/js/main.9147addd.js",
     "static/media/image-filter-app-demo_AdobeExpress-2.gif": "/portfolio/static/media/image-filter-app-demo_AdobeExpress-2.590e8072300943bd6e0a.gif",
     "static/media/3danatomy-3.gif": "/portfolio/static/media/3danatomy-3.5d448410017f33334443.gif",
     "static/media/3danatomy-2.gif": "/portfolio/static/media/3danatomy-2.8f520b21fd4e1803fdbc.gif",
@@ -48,11 +48,11 @@
     "static/media/mallard.jpg": "/portfolio/static/media/mallard.64013a7f8779017def4a.jpg",
     "static/media/filter-nobkg.jpg": "/portfolio/static/media/filter-nobkg.4c8a0fa1c6ba3abcc121.jpg",
     "index.html": "/portfolio/index.html",
-    "main.45c45bed.css.map": "/portfolio/static/css/main.45c45bed.css.map",
-    "main.7c857e2b.js.map": "/portfolio/static/js/main.7c857e2b.js.map"
+    "main.161d9028.css.map": "/portfolio/static/css/main.161d9028.css.map",
+    "main.9147addd.js.map": "/portfolio/static/js/main.9147addd.js.map"
   },
   "entrypoints": [
-    "static/css/main.45c45bed.css",
-    "static/js/main.7c857e2b.js"
+    "static/css/main.161d9028.css",
+    "static/js/main.9147addd.js"
   ]
 }
